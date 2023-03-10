@@ -1,0 +1,455 @@
+.welcome {
+  width: 100%;
+  background-image: url(../imagenes/fondo-nosotros.png);
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.welcome h2 {
+  color: #fff;
+  font-size: 2em;
+}
+.line-divider {
+  width: 100%;
+  height: 70px;
+  background-color: #a2cff0;
+}
+.nosotros-1 {
+  width: 100%;
+}
+
+.nosotros1 {
+  max-width: 100%;
+  display: block;
+}
+.nosotros2 {
+  max-width: 100%;
+  display: none;
+}
+.item-somos-1:nth-child(2) {
+  position: relative;
+}
+.item-somos-1:nth-child(2) h2 {
+  color: #002c89;
+  font-size: 1.3em;
+  text-align: left;
+  position: relative;
+  padding: 0px 15px;
+  margin-top: 5px;
+  text-transform: uppercase;
+}
+.item-somos-1:nth-child(2) p {
+  font-size: 0.9em;
+  text-align: justify;
+  margin: 0px auto;
+  padding: 10px 15px;
+}
+.item-somos-1:nth-child(2) img {
+  max-width: 80%;
+  display: block;
+  margin: 10px auto;
+}
+.spiner {
+  position: absolute;
+  top: 22%;
+  z-index: -1;
+  left: 10%;
+  animation: spiner 8s infinite linear;
+}
+@keyframes spiner {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.mision {
+  width: 100%;
+}
+.container-mision {
+  display: grid;
+  grid-template-areas:
+    "item1 "
+    "item2"
+    "item3";
+  height: auto;
+  gap: 15px;
+  position: relative;
+}
+.item-mision img {
+  max-width: 80%;
+  display: block;
+  margin: auto;
+}
+.item-mision h2 {
+  color: #002c89;
+  text-align: left;
+  font-size: 1.3em;
+  padding-left: 15px;
+  text-transform: uppercase;
+}
+.item-mision p {
+  text-align: justify;
+  font-size: 0.9em;
+  padding: 5px 15px;
+}
+.item-1 {
+  grid-area: item1;
+}
+.item-2 {
+  grid-area: item2;
+}
+.item-3 {
+  grid-area: item3;
+}
+.spiner-mision1 {
+  position: absolute;
+  z-index: -1;
+  max-width: 95%;
+  top: 10%;
+  left: 2.5%;
+  animation: spiner2 8s infinite linear;
+}
+.spiner-mision2 {
+  position: absolute;
+  z-index: -1;
+  max-width: 95%;
+  top: 50%;
+  left: 2.5%;
+  animation: spiner2 8s infinite linear;
+}
+@keyframes spiner2 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.beneficios-nosotros {
+  width: 100%;
+}
+.beneficios-nosotros h2 {
+  font-size: 1.3em;
+  color: #002c89;
+  padding-left: 15px;
+}
+.container-beneficios-nosotros {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 15px;
+  padding: 15px;
+}
+.item-card-beneficios {
+  width: 100%;
+}
+.item-card-top img {
+  max-width: 100%;
+}
+.item-beneficios-nosotros:nth-child(1) .item-card-beneficios .item-card-body {
+  background-color: #002c89;
+  height: auto;
+  margin-top: -7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 15px;
+}
+.item-beneficios-nosotros:nth-child(2) .item-card-beneficios .item-card-body {
+  background-color: #666666;
+  height: auto;
+  margin-top: -7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 15px;
+}
+.item-card-body p {
+  font-size: 1.3em;
+  color: #fff;
+}
+.list-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.list-show {
+  width: 100%;
+  margin-left: auto;
+  border-left: 2px solid #303440;
+  list-style: none;
+  transition: height 0.4s;
+  height: 0;
+  overflow: hidden;
+}
+.list-show p {
+  font-size: 0.9em;
+  text-align: justify;
+  margin: 10px auto 10px 8px;
+  color: #fff;
+}
+.item-card-body img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+@media (min-width: 768px) {
+  .welcome {
+    width: 100%;
+    background-image: url(../imagenes/fondo-nosotros.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .welcome h2 {
+    color: #fff;
+    font-size: 3.5em;
+    text-transform: uppercase;
+  }
+  .nosotros-1 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .nosotros1 {
+    display: none;
+  }
+  .item-somos-1:nth-child(1) {
+    position: relative;
+    background-image: url(../imagenes/fondo-nosotros-1-descktop.png);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nosotros2 {
+    width: 500px;
+    height: auto;
+    object-fit: contain;
+    display: block;
+  }
+  .item-somos-1:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-right: 40px;
+  }
+  .item-somos-1:nth-child(2) h2 {
+    color: #002c89;
+    font-size: 2em;
+    text-align: left;
+    position: relative;
+    padding: 0px 15px;
+    margin-top: 5px;
+    text-transform: uppercase;
+  }
+  .item-somos-1:nth-child(2) p {
+    font-size: 1.1em;
+    text-align: justify;
+    margin: 0px auto;
+    padding: 10px 15px;
+  }
+  .item-somos-1:nth-child(2) img {
+    max-width: 48%;
+    display: block;
+    margin: 10px auto;
+  }
+  .img-somos-1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+  }
+  .spiner {
+    position: absolute;
+    top: 24%;
+    z-index: -1;
+    left: 18%;
+    animation: spiner 8s infinite linear;
+  }
+  @keyframes spiner {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .mision {
+    width: 100%;
+  }
+  .container-mision {
+    display: grid;
+    grid-template-areas:
+      "item1 item2"
+      "item3 item3";
+    height: auto;
+    gap: 25px;
+    position: relative;
+    padding: 10px 40px;
+  }
+  .item-mision img {
+    max-width: 60%;
+    display: block;
+    margin: auto;
+  }
+  .item-mision h2 {
+    color: #002c89;
+    text-align: left;
+    font-size: 2em;
+    padding-left: 15px;
+    text-transform: uppercase;
+  }
+  .item-mision p {
+    text-align: justify;
+    font-size: 1.1em;
+    padding: 5px 15px;
+  }
+  .item-1 {
+    grid-area: item1;
+  }
+  .item-1 p {
+    text-align: left;
+  }
+  .item-2 {
+    grid-area: item2;
+  }
+  .item-2 h2 {
+    text-align: right;
+  }
+  .item-2 p {
+    text-align: right;
+  }
+  .item-2 img {
+    margin-top: 25px;
+  }
+  .item-3 {
+    grid-area: item3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .item-3 p {
+    width: 480px;
+  }
+  .spiner-mision1 {
+    position: absolute;
+    z-index: -1;
+    width: 650px;
+    height: 650px;
+    object-fit: contain;
+    top: -10%;
+    left: -5%;
+    animation: spiner2 8s infinite linear;
+  }
+  .spiner-mision2 {
+    position: absolute;
+    z-index: -1;
+    width: 600px;
+    height: 600px;
+    object-fit: contain;
+    top: -10%;
+    left: 60%;
+    animation: spiner2 8s infinite linear;
+  }
+  @keyframes spiner2 {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .beneficios-nosotros {
+    width: 100%;
+  }
+  .beneficios-nosotros h2 {
+    font-size: 2em;
+    color: #002c89;
+    padding: 15px;
+    text-align: center;
+  }
+  .container-beneficios-nosotros {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    padding: 15px;
+  }
+  .item-card-beneficios {
+    width: 70%;
+    margin: auto;
+  }
+  .item-card-top img {
+    max-width: 100%;
+  }
+  .item-beneficios-nosotros:nth-child(1) .item-card-beneficios .item-card-body {
+    background-color: #002c89;
+    height: auto;
+    margin-top: -7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px 15px;
+  }
+  .item-beneficios-nosotros:nth-child(2) .item-card-beneficios .item-card-body {
+    background-color: #666666;
+    height: auto;
+    margin-top: -7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px 15px;
+  }
+  .item-card-body p {
+    font-size: 1.7em;
+    color: #fff;
+  }
+  .list-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .list-show {
+    width: 100%;
+    margin-left: auto;
+    border-left: 2px solid #303440;
+    list-style: none;
+    transition: height 0.4s;
+    height: 0;
+    overflow: hidden;
+  }
+  .list-show p {
+    font-size: 0.9em;
+    text-align: justify;
+    margin: 10px auto 10px 8px;
+    color: #fff;
+  }
+  .item-card-body img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+  }
+}
