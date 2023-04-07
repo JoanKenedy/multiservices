@@ -60,6 +60,51 @@ header {
   height: 30px;
   object-fit: contain;
 }
+/* count*/
+.index-count{
+  width: 100%;
+  margin: auto;
+  display: block;
+  background-color: #424242;
+}
+
+.container-index-count{
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  margin: 0px auto;
+  gap: 15px;
+  background-color: #424242;
+  padding: 0px auto;
+}
+.contador{
+  margin: auto;
+  text-align: center;
+  background-color: transparent;
+  padding: 5px 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+}
+.contador p{
+  font-size: 0.9em;
+  font-weight: 200;
+  color: #fff;
+}
+.contador i{
+  font-size: 20px;
+  color: #fff;
+  margin-right: 10px;
+}
+.count_amount{
+  color: #fff;
+  font-size: 1.2em;
+  margin-top: 7px;
+}
+/* count*/
 .header-menu {
   width: 100%;
   position: relative;
@@ -848,6 +893,56 @@ form select option {
   transition: 0.5s;
 }
 @media (min-width: 768px) {
+  .line-deskctop{
+   display: none;
+  }
+  .index-count{
+    width: 100%;
+    margin: auto;
+  }
+ 
+  
+.index-count-header h2{
+  text-align: center;
+  color: #3333ff;
+  display: none;
+}
+.container-index-count{
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0px auto;
+  gap: 7px;
+}
+.contador{
+  margin: auto;
+  text-align: center;
+  background-color: transparent;
+  padding: 10px 15px;
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  gap: 5px;
+}
+.contador p{
+  font-size: 1.5em;
+  font-weight: 200;
+  color: #fff;
+}
+.contador i{
+  font-size: 25px;
+  color: #fff;
+  margin-right: 7px;
+}
+.count_amount{
+  color: #fff;
+  font-size: 1.5em;
+  margin-top: 0px;
+}
   .container-fotos {
     width: 100%;
     position: fixed;
