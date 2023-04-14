@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Multiservice Card</title>
     <link rel="stylesheet" href="styles/home.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
     <!-- Google tag (gtag.js) -->
     <script
       async
@@ -23,14 +27,32 @@
   </head>
   <body>
     <header>
+      <section class="index-count">
+        
+        <div class="container-index-count">
+          <div class="contador">
+           
+            <i class="fa-solid fa-house"></i>
+            <div class="count_amount" data-cantidad-total="32250">0</div>
+            <p>Visitas al Sitio Web</p>
+          </div>
+          <div class="contador">
+            <i class="fa-solid fa-users"></i>
+            <div class="count_amount" data-cantidad-total="25487">0</div>
+            <p>Clientes Satisfechos</p>
+          </div>
+          
+        </div>
+
+      </section>
       <div class="header-top">
         <div class="redes-header">
           <p>Afilia tu negocio</p>
         </div>
 
         <div class="redes-header">
-          <a href="https://mpago.la/327qQLn" target="_blank" class="comprar"
-            >Comprar</a
+          <a href="directorio.html" target="_blank" class="comprar"
+            >Directorio</a
           >
           <a href="https://www.facebook.com/multiservice.card" target="_blank"
             ><img src="imagenes/facebook.png" alt="" class="icono-header"
@@ -59,7 +81,7 @@
           <a href="index.html" class="linea-menu">Inicio</a>
           <a href="#" class="linea-menu">¿Quiénes Somos?</a>
           <a href="index.html#beneficios" class="linea-menu">Beneficios</a>
-          <a href="index.html#directorio" class="linea-menu">Directorio</a>
+          <a href="directorio.html" class="linea-menu direct">Directorio</a>
         </nav>
         <div class="menu-icon" id="icon-menu">
           <span></span>
@@ -187,11 +209,11 @@
       </div>
       <div class="dividing-line"></div>
       <div class="businesses" id="directorio">
-        <h2>Negocios Participantes</h2>
+        <h2>Negocios Afiliados</h2>
 
-        <div class="container-businesses">
-          <div class="slider-businesses">
-            <div class="item-businesses">
+        <div class="carousel">
+          <div class="carousel-items">
+            <div class="carousel-item">
               <a
                 href="http://clinicadentaljuarez.dentarios.com.mx/"
                 target="_blank"
@@ -199,79 +221,23 @@
                 <img src="imagenes/logo-juarez.png" alt="" />
               </a>
             </div>
-            <div class="item-businesses">
+            <div class="carousel-item">
               <a
-                href="https://www.facebook.com/profile.php?id=100006647534882&mibextid=ZbWKwL"
+                href="https://www.hotelrosita.com/"
                 target="_blank"
               >
-                <img src="imagenes/logo-automotriz.png" alt="" />
+                <img src="imagenes/logo-hotel-rosita.png" alt="" />
               </a>
             </div>
-            <div class="item-businesses">
+            <div class="carousel-item">
               <a
-                href="https://www.facebook.com/profile.php?id=100010490827900&mibextid=ZbWKwL"
+                href="https://www.hotelelpescador.com/"
                 target="_blank"
               >
-                <img src="imagenes/vigilancia.jpeg" alt="" />
+                <img src="imagenes/logo-hotel-pescador.png" alt="" />
               </a>
             </div>
-            <div class="item-businesses">
-              <a
-                href="https://www.facebook.com/profile.php?id=100063482079800&mibextid=LQQJ4d"
-                target="_blank"
-              >
-                <img src="imagenes/kenia.png" alt="" />
-              </a>
-            </div>
-            <div class="item-businesses">
-              <a
-                href="https://m.facebook.com/profile.php?id=100063500801078&_rdr"
-                target="_blank"
-              >
-                <img src="imagenes/cosmooptica.jpeg" alt="" />
-              </a>
-            </div>
-            <div class="item-businesses">
-              <a
-                href="https://www.facebook.com/profile.php?id=100063950892010&mibextid=ZbWKwL"
-                target="_blank"
-              >
-                <img src="imagenes/logo-pc.jpeg" alt="" />
-              </a>
-            </div>
-            <div class="item-businesses">
-              <a
-                href="https://www.facebook.com/profile.php?id=100006647534882&mibextid=ZbWKwL"
-                target="_blank"
-              >
-                <img src="imagenes/logo-automotriz.png" alt="" />
-              </a>
-            </div>
-            <div class="item-businesses">
-              <a
-                href="https://www.facebook.com/profile.php?id=100010490827900&mibextid=ZbWKwL"
-                target="_blank"
-              >
-                <img src="imagenes/vigilancia.jpeg" alt="" />
-              </a>
-            </div>
-            <div class="item-businesses">
-              <a
-                href="https://www.facebook.com/profile.php?id=100063482079800&mibextid=LQQJ4d"
-                target="_blank"
-              >
-                <img src="imagenes/kenia.png" alt="" />
-              </a>
-            </div>
-            <div class="item-businesses">
-              <a
-                href="https://m.facebook.com/profile.php?id=100063500801078&_rdr"
-                target="_blank"
-              >
-                <img src="imagenes/cosmooptica.jpeg" alt="" />
-              </a>
-            </div>
-            <div class="item-businesses">
+            <div class="carousel-item">
               <a
                 href="https://publicitybus.com.mx/nosotros/"
                 target="_blank"
@@ -279,31 +245,7 @@
                 <img src="imagenes/logo-autobusues.jpg" alt="" />
               </a>
             </div>
-            <div class="item-businesses">
-              <a
-                href="https://www.facebook.com/profile.php?id=100063950892010&mibextid=ZbWKwL"
-                target="_blank"
-              >
-                <img src="imagenes/logo-pc.jpeg" alt="" />
-              </a>
-            </div>
-            <div class="item-businesses">
-              <a
-                href="https://www.facebook.com/profile.php?id=100010490827900&mibextid=ZbWKwL"
-                target="_blank"
-              >
-                <img src="imagenes/vigilancia.jpeg" alt="" />
-              </a>
-            </div>
-            <div class="item-businesses">
-              <a
-                href="https://www.facebook.com/profile.php?id=100063482079800&mibextid=LQQJ4d"
-                target="_blank"
-              >
-                <img src="imagenes/kenia.png" alt="" />
-              </a>
-            </div>
-            <div class="item-businesses">
+            <div class="carousel-item">
               <a
                 href="https://m.facebook.com/profile.php?id=100063500801078&_rdr"
                 target="_blank"
@@ -311,7 +253,87 @@
                 <img src="imagenes/cosmooptica.jpeg" alt="" />
               </a>
             </div>
-            <div class="item-businesses">
+            <div class="carousel-item">
+              <a
+                href="https://www.facebook.com/profile.php?id=100063950892010&mibextid=ZbWKwL"
+                target="_blank"
+              >
+                <img src="imagenes/logo-pc.jpeg" alt="" />
+              </a>
+            </div>
+            <div class="carousel-item">
+              <a
+                href="https://www.facebook.com/profile.php?id=100006647534882&mibextid=ZbWKwL"
+                target="_blank"
+              >
+                <img src="imagenes/logo-automotriz.png" alt="" />
+              </a>
+            </div>
+            <div class="carousel-item">
+              <a
+                href="https://www.facebook.com/profile.php?id=100010490827900&mibextid=ZbWKwL"
+                target="_blank"
+              >
+                <img src="imagenes/vigilancia.jpeg" alt="" />
+              </a>
+            </div>
+            <div class="carousel-item">
+              <a
+                href="https://www.facebook.com/profile.php?id=100063482079800&mibextid=LQQJ4d"
+                target="_blank"
+              >
+                <img src="imagenes/kenia.png" alt="" />
+              </a>
+            </div>
+            <div class="carousel-item">
+              <a
+                href="https://m.facebook.com/profile.php?id=100063500801078&_rdr"
+                target="_blank"
+              >
+                <img src="imagenes/cosmooptica.jpeg" alt="" />
+              </a>
+            </div>
+            <div class="carousel-item">
+              <a
+                href="https://publicitybus.com.mx/nosotros/"
+                target="_blank"
+              >
+                <img src="imagenes/logo-autobusues.jpg" alt="" />
+              </a>
+            </div>
+            <div class="carousel-item">
+              <a
+                href="https://www.facebook.com/profile.php?id=100063950892010&mibextid=ZbWKwL"
+                target="_blank"
+              >
+                <img src="imagenes/logo-pc.jpeg" alt="" />
+              </a>
+            </div>
+            <div class="carousel-item">
+              <a
+                href="https://www.facebook.com/profile.php?id=100010490827900&mibextid=ZbWKwL"
+                target="_blank"
+              >
+                <img src="imagenes/vigilancia.jpeg" alt="" />
+              </a>
+            </div>
+            <div class="carousel-item">
+              <a
+                href="https://www.facebook.com/profile.php?id=100063482079800&mibextid=LQQJ4d"
+                target="_blank"
+              >
+                <img src="imagenes/kenia.png" alt="" />
+              </a>
+            </div>
+            <div class="carousel-item">
+              <a
+                href="https://m.facebook.com/profile.php?id=100063500801078&_rdr"
+                target="_blank"
+              >
+                <img src="imagenes/cosmooptica.jpeg" alt="" />
+              </a>
+            </div>
+            <div class="carousel-item">
               <a
                 href="https://publicitybus.com.mx/nosotros/"
                 target="_blank"
@@ -425,6 +447,7 @@
       </div>
     </footer>
     <script src="js/menu.js"></script>
+  <script src="js/count.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script>
       var typed = new Typed(".auto-type", {

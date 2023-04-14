@@ -76,6 +76,51 @@ const imgArray = [
   {
     img1: "imagenes/20.jpeg",
   },
+  {
+    img1: "imagenes/21.jpeg",
+  },
+  {
+    img1: "imagenes/22.jpeg",
+  },
+  {
+    img1: "imagenes/23.jpeg",
+  },
+  {
+    img1: "imagenes/24.jpeg",
+  },
+  {
+    img1: "imagenes/25.jpeg",
+  },
+  {
+    img1: "imagenes/26.jpeg",
+  },
+  {
+    img1: "imagenes/27.jpeg",
+  },
+  {
+    img1: "imagenes/28.jpeg",
+  },
+  {
+    img1: "imagenes/29.jpeg",
+  },
+  {
+    img1: "imagenes/30.jpeg",
+  },
+  {
+    img1: "imagenes/31.jpeg",
+  },
+  {
+    img1: "imagenes/32.jpeg",
+  },
+  {
+    img1: "imagenes/33.jpeg",
+  },
+  {
+    img1: "imagenes/34.jpeg",
+  },
+  {
+    img1: "imagenes/35.jpeg",
+  },
 ];
 
 const comprasMembresia = document.getElementById("comprasMembresia");
