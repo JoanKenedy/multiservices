@@ -83,7 +83,30 @@ const infoModal = [
      img: "imagenes/promo-casas.jpg",
      mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3733.075130659198!2d-103.35276619117518!3d20.666522180814013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428b1f888992a13%3A0x7097911930f73230!2sGran%20Casa%20Xalisco!5e0!3m2!1ses-419!2smx!4v1681328385308!5m2!1ses-419!2smx"
     },
-    
+    {
+        id: 11,
+        title: "EndoCenter Rivera",
+        description: "Obten este beneficio solo con la membresia Multiservice Card",
+        direccion: "Blvd. Riviera Nayarit #2, interior 6, entre Av. Paseo de la Costa y Av. El Roble, Nuevo Vallarta, Nayarit. Plaza el Roble. 63735 Nuevo Vallarta, México",
+        img: "imagenes/Logo_Endo_Center.png",
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3732.018624546521!2d-105.27703822551258!3d20.70946829867007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8421472a3bacdf91%3A0xffab247fc625c1db!2sENDOCENTER%20RIVIERA!5e0!3m2!1ses-419!2smx!4v1683825800092!5m2!1ses-419!2smx"
+    },
+    {
+        id: 12,
+        title: "Imagine by Feat Nutrición",
+        description: "Obten este beneficio solo con la membresia Multiservice Card",
+        direccion: "Francia 203, Versalles, 48310 Puerto Vallarta, Jal.",
+        img: "imagenes/logo-image.png",
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3733.7931132574267!2d-105.23014782551459!3d20.6372880011106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8421457b18057241%3A0xef618a49d20390f5!2sFrancia%20203%2C%20Versalles%2C%2048310%20Puerto%20Vallarta%2C%20Jal.!5e0!3m2!1ses-419!2smx!4v1683826235897!5m2!1ses-419!2smx"
+    },
+    {
+        id: 13,
+        title: "Servicio Rodriguez",
+        description: "Obten este beneficio solo con la membresia Multiservice Card",
+        direccion: "No hay dirección fisica",
+        img: "imagenes/promo-acondi.jpg",
+        mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3733.7931132574267!2d-105.23014782551459!3d20.6372880011106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8421457b18057241%3A0xef618a49d20390f5!2sFrancia%20203%2C%20Versalles%2C%2048310%20Puerto%20Vallarta%2C%20Jal.!5e0!3m2!1ses-419!2smx!4v1683826235897!5m2!1ses-419!2smx"
+    },
  
  
  ]
