@@ -64,23 +64,23 @@ header {
   object-fit: contain;
 }
 /* count*/
-.index-count{
+.index-count {
   width: 100%;
   margin: auto;
   display: block;
   background-color: #424242;
 }
 
-.container-index-count{
+.container-index-count {
   width: 90%;
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   margin: 0px auto;
   gap: 15px;
   background-color: #424242;
   padding: 0px auto;
 }
-.contador{
+.contador {
   margin: auto;
   text-align: center;
   background-color: transparent;
@@ -92,17 +92,17 @@ header {
   align-items: center;
   border-radius: 12px;
 }
-.contador p{
+.contador p {
   font-size: 0.9em;
   font-weight: 200;
   color: #fff;
 }
-.contador i{
+.contador i {
   font-size: 20px;
   color: #fff;
   margin-right: 10px;
 }
-.count_amount{
+.count_amount {
   color: #fff;
   font-size: 1.2em;
   margin-top: 7px;
@@ -619,7 +619,7 @@ form select option {
   text-transform: uppercase;
   padding-left: 15px;
 }
-.container-promos{
+.container-promos {
   display: none;
 }
 /*clientes*/
@@ -635,11 +635,10 @@ form select option {
   text-transform: uppercase;
   padding: 0px 10px;
 }
-.container-slider-movil{
+.container-slider-movil {
   width: 95%;
   margin: auto;
 }
-
 
 /* Slideshow container */
 .slideshow-container {
@@ -649,7 +648,8 @@ form select option {
 }
 
 /* Next & previous buttons */
-.prev, .next {
+.prev,
+.next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -663,7 +663,7 @@ form select option {
   border-radius: 0 3px 3px 0;
   user-select: none;
 }
-.mySlider img{
+.mySlider img {
   max-width: 100%;
   padding: 5px;
 }
@@ -672,10 +672,9 @@ form select option {
   right: -3%;
   border-radius: 3px 0 0 3px;
 }
-.prev{
+.prev {
   left: -3%;
 }
-
 
 /* The dots/bullets/indicators */
 
@@ -688,18 +687,30 @@ form select option {
 }
 
 @-webkit-keyframes fade {
-  from {opacity: 0} 
-  to {opacity: 1}
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes fade {
-  from {opacity: 0} 
-  to {opacity: 1}
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 30px}
+  .prev,
+  .next,
+  .text {
+    font-size: 30px;
+  }
 }
 .carousel {
   width: 90%;
@@ -907,7 +918,7 @@ form select option {
 
   border: none;
 }
-.fotos{
+.fotos {
   background-color: #002c89;
   color: #fff;
   font-size: 1em;
@@ -983,8 +994,7 @@ form select option {
 }
 
 @media (min-width: 768px) {
-  
-  .fotos{
+  .fotos {
     background-color: #002c89;
     color: #fff;
     font-size: 1em;
@@ -997,7 +1007,7 @@ form select option {
     text-decoration: none;
     font-weight: 700;
     text-transform: uppercase;
-  
+
     border: none;
   }
   .businesses .agregar {
@@ -1007,58 +1017,58 @@ form select option {
     margin: auto;
     font-weight: 700;
   }
-  .line-deskctop{
-   display: none;
+  .line-deskctop {
+    display: none;
   }
-  .index-count{
+  .index-count {
     width: 100%;
     margin: auto;
   }
- .container-slider-movil{
-  display: none;
- }
-  
-.index-count-header h2{
-  text-align: center;
-  color: #3333ff;
-  display: none;
-}
-.container-index-count{
-  width: 80%;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  margin: 0px auto;
-  gap: 7px;
-}
-.contador{
-  margin: auto;
-  text-align: center;
-  background-color: transparent;
-  padding: 10px 15px;
-  display: flex;
-  flex-direction:row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  border-radius: 12px;
-  gap: 5px;
-}
-.contador p{
-  font-size: 1.5em;
-  font-weight: 200;
-  color: #fff;
-}
-.contador i{
-  font-size: 25px;
-  color: #fff;
-  margin-right: 7px;
-}
-.count_amount{
-  color: #fff;
-  font-size: 1.5em;
-  margin-top: 0px;
-}
+  .container-slider-movil {
+    display: none;
+  }
+
+  .index-count-header h2 {
+    text-align: center;
+    color: #3333ff;
+    display: none;
+  }
+  .container-index-count {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px auto;
+    gap: 7px;
+  }
+  .contador {
+    margin: auto;
+    text-align: center;
+    background-color: transparent;
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    gap: 5px;
+  }
+  .contador p {
+    font-size: 1.5em;
+    font-weight: 200;
+    color: #fff;
+  }
+  .contador i {
+    font-size: 25px;
+    color: #fff;
+    margin-right: 7px;
+  }
+  .count_amount {
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 0px;
+  }
   .container-fotos {
     width: 100%;
     position: fixed;
@@ -1081,7 +1091,7 @@ form select option {
     margin: 0 auto;
     display: flex;
   }
-  
+
   #imagen {
     width: 100%;
     height: auto;
@@ -1586,29 +1596,27 @@ form select option {
     z-index: -1;
     right: -10px;
     top: 50px;
-  } 
+  }
 
-  
-.container-promos{
-  display: block;
-  width: 95%;
-  margin: auto;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
-
-}
-.item-promos{
-  width: auto;
-  height: auto;
-}
-.item-promos img{
-max-width: 100%;
-}
-.item-promos img:hover{
-  transform: scale(1.1);
-  transition: 0.7s;
-}
+  .container-promos {
+    display: block;
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+  .item-promos {
+    width: auto;
+    height: auto;
+  }
+  .item-promos img {
+    max-width: 100%;
+  }
+  .item-promos img:hover {
+    transform: scale(1.1);
+    transition: 0.7s;
+  }
   footer {
     margin-bottom: 0px;
   }
@@ -1756,11 +1764,11 @@ max-width: 100%;
     margin-bottom: 10px;
   }
   .container-modal-promos {
-    width: 80%;
+    width: 90%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
-    margin-top: 50px;
+    margin-top: 0px;
   }
   .img-modal {
     max-width: 100%;
