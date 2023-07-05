@@ -151,6 +151,35 @@ const infoModal = [
     mapa: "<p>Lo sentimos no hay dirección fisica para este negocio, pero puedes contactarnos mediante el boton de abajo<p/>",
     contacto: "https://api.whatsapp.com/send/?phone=523222155854",
   },
+  {
+    id: 16,
+    title: "Joyeria Luna",
+    description: "Obten este beneficio solo con la membresia Multiservice Card",
+    direccion:
+      "Avenida Los Tules #178 Int Isla K1, Plaza Caracol, Puerto Vallarta, Mexico",
+    img: "imagenes/promo-luna.jpeg",
+    mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3733.694416369508!2d-105.23540322563991!3d20.64130900097508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x84214577314cc4f9%3A0xc2ed93256cf4627f!2sAv%20Los%20Tules%20178%2C%20D%C3%ADaz%20Ordaz%2C%2048310%20Puerto%20Vallarta%2C%20Jal.!5e0!3m2!1ses-419!2smx!4v1688592105857!5m2!1ses-419!2smx"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>',
+    contacto: "tel:3222423252",
+  },
+  {
+    id: 17,
+    title: "Manuel Sanchez Gestorías Vehiculares",
+    description: "Obten este beneficio solo con la membresia Multiservice Card",
+    direccion: "No hay dirección fisica",
+    img: "imagenes/promo-sanchez.png",
+    mapa: "<p>Lo sentimos no hay dirección fisica para este negocio, pero puedes contactarnos mediante el boton de abajo<p/>",
+    contacto: "tel:3222756970",
+  },
+  {
+    id: 18,
+    title: "Quinta Paloma Campestre",
+    description: "Obten este beneficio solo con la membresia Multiservice Card",
+    direccion:
+      "C. 16 de Septiembre 283, Rancho Alegre, 48290 Puerto Vallarta, Jal.",
+    img: "imagenes/promo-paloma.png",
+    mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3733.2025332861194!2d-105.22464652563937!3d20.661337600298584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842145f0295f6939%3A0xc85f5132cd3730ea!2sQuinta%20Paloma!5e0!3m2!1ses!2smx!4v1688593041994!5m2!1ses!2smx"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>',
+    contacto: "tel:3223533182",
+  },
 ];
 
 let modalBtns = document.querySelectorAll(".btn-mas");
