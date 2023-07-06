@@ -180,6 +180,15 @@ const infoModal = [
     mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3733.2025332861194!2d-105.22464652563937!3d20.661337600298584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842145f0295f6939%3A0xc85f5132cd3730ea!2sQuinta%20Paloma!5e0!3m2!1ses!2smx!4v1688593041994!5m2!1ses!2smx"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>',
     contacto: "tel:3223533182",
   },
+  {
+    id: 19,
+    title: "Clínica dental Juarez",
+    description: "Obten este beneficio solo con la membresia Multiservice Card",
+    direccion: "C. Juárez 661, Centro, 48300 Puerto Vallarta, Jal.",
+    img: "imagenes/promo-juarez.jpg",
+    mapa: "<iframe class='iframe-modal' src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3734.4226463978966!2d-105.23571372602235!3d20.611622601977505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8421455de49c0455%3A0x79de11559e295ba0!2sCl%C3%ADnica%20Dental%20Ju%C3%A1rez!5e0!3m2!1ses-419!2smx!4v1681326617297!5m2!1ses-419!2smx' style='border:0;'  loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+    contacto: "https://api.whatsapp.com/send/?phone=523221121616",
+  },
 ];
 
 let modalBtns = document.querySelectorAll(".btn-mas");
