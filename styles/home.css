@@ -203,6 +203,24 @@ main {
   padding: 10px 0px;
   overflow-x: hidden;
 }
+
+.img-home {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.img-home img {
+max-width: 100%;
+}
+
+.mobile {
+  display: flex;
+}
+
+.desktop {
+  display: none;
+}
+
 .item-hero-home h2 {
   color: #002c89;
   font-size: 1.1em;
@@ -994,6 +1012,14 @@ form select option {
 }
 
 @media (min-width: 768px) {
+  .mobile {
+    display: none;
+  }
+
+  .desktop {
+    display: flex;
+  }
+
   .fotos {
     background-color: #002c89;
     color: #fff;
