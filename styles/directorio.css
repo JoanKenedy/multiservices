@@ -35,9 +35,11 @@
   border-radius: 10px;
 }
 .item-directorios img {
-  max-width: 100%;
+  max-width: 70%;
   margin: auto;
+  max-height: 70%;
 }
+
 .item-directorios:nth-child(5) img,
 .item-directorios:nth-child(6) img,
 .item-directorios:nth-child(9) img,
