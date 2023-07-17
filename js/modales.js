@@ -216,6 +216,15 @@ const infoModal = [
     mapa: "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3733.1425362984655!2d-105.25371249999999!3d20.663779299999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842145b84b6daa39%3A0x3d1977fbf52983c8!2sClub%20de%20Tenis%20Puesta%20del%20Sol%20S.A.!5e0!3m2!1ses-419!2smx!4v1689184354344!5m2!1ses-419!2smx' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
     contacto: "https://api.whatsapp.com/send/?phone=3221087372",
   },
+  {
+    id: 23,
+    title: "Olamar Tours en Puerto Vallarta",
+    description: "Obtén este beneficio solo con la membresía Multiservice Card",
+    direccion: "Condominios Puesta del Sol, Local 11-D, Mariana Vallarta, Puerto Vallarta, Jal.",
+    img: "imagenes/promo-yates.jpg",
+    mapa: "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3733.0900158526606!2d-105.25356232557574!3d20.665916500143695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842145fc19fc0073%3A0x1547f723fb47ea20!2sOlamar%20Tours%20Puerto%20Vallarta!5e0!3m2!1ses-419!2smx!4v1689615758438!5m2!1ses-419!2smx' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+    contacto: "https://www.facebook.com/olamarpv.tours?mibextid=LQQJ4d",
+  },
 ];
 
 let modalBtns = document.querySelectorAll(".btn-mas");
