@@ -225,6 +225,33 @@ const infoModal = [
     mapa: "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3733.0900158526606!2d-105.25356232557574!3d20.665916500143695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842145fc19fc0073%3A0x1547f723fb47ea20!2sOlamar%20Tours%20Puerto%20Vallarta!5e0!3m2!1ses-419!2smx!4v1689615758438!5m2!1ses-419!2smx' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
     contacto: "https://www.facebook.com/olamarpv.tours?mibextid=LQQJ4d",
   },
+  {
+    id: 24,
+    title: "Publigraphic Design",
+    description: "Obtén este beneficio solo con la membresía Multiservice Card",
+    direccion: "Carretera mezcales San Vicente #9 local 2",
+    img: "imagenes/print-promo.jpeg",
+    mapa: "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3731.3274295854776!2d-105.27388358849646!3d20.737518797636632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x84214728f43d859d%3A0xc9e5f4a1be84dfed!2sPubligraphic%20design!5e0!3m2!1ses!2smx!4v1689879664998!5m2!1ses!2smx' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+    contacto: "https://www.facebook.com/PUBLIGRAPHIC.DESIGN.BADEBA",
+  },
+  {
+    id: 25,
+    title: "Restaurant Vargas",
+    description: "Obtén este beneficio solo con la membresía Multiservice Card",
+    direccion: "Boulevard Riviera Nayarit #50, Mezcales, México",
+    img: "imagenes/promo-vargas.jpeg",
+    mapa: "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3731.429364381339!2d-105.28843458849663!3d20.73338429777697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842147b84375004b%3A0x3b2d947f27ba1f18!2sRestaurant%20Vargas!5e0!3m2!1ses!2smx!4v1689886574174!5m2!1ses!2smx' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+    contacto: "wa.me/+523222051259",
+  },
+  {
+    id: 26,
+    title: "Tony Rodriguez Hair Studio",
+    description: "Obtén este beneficio solo con la membresía Multiservice Card",
+    direccion: "Mar Adriático 16, Fraccionamiento Altavela, 63735 Nay.",
+    img: "imagenes/promo-tr-1.jpeg",
+    mapa: "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3731.149334237838!2d-105.27892278849635!3d20.74474049739193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x84214755b26b5363%3A0x8d49b47c10e25092!2sTony%20Rodriguez%20Hair%20Studio!5e0!3m2!1ses!2smx!4v1689886989692!5m2!1ses!2smx' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+    contacto: "wa.me/+523224298818",
+  },
 ];
 
 let modalBtns = document.querySelectorAll(".btn-mas");
