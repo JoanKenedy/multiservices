@@ -288,6 +288,15 @@ const infoModal = [
     mapa: "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3731.4666131832596!2d-105.2853561907352!3d20.731873280764248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842146e3f42a82a3%3A0x665363858f361f94!2sAudio%20Planet!5e0!3m2!1ses!2smx!4v1690220998324!5m2!1ses!2smx' style='border:0;' allowfullscreen=' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
     contacto: "https://api.whatsapp.com/send/?phone=523221380033",
   },
+  {
+    id: 31,
+    title: "Burritos El Punto",
+    description: "Obtén este beneficio solo con la membresía Multiservice Card",
+    direccion: "Valle de los Reyes 100, Valle Dorado, 63735 Mezcales, Nay.",
+    img: "imagenes/descuentos/promo-burro.jpeg",
+    mapa: "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3731.8751157151464!2d-105.27928715920976!3d20.715295249287326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8421472183966cdf%3A0xec1fd6e220735ff9!2sBurritos%20El%20Punto%20Vallarta!5e0!3m2!1ses-419!2smx!4v1690389078319!5m2!1ses-419!2smx' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+    contacto: "https://api.whatsapp.com/send/?phone=523222817695",
+  },
 ];
 
 let modalBtns = document.querySelectorAll(".btn-mas");
