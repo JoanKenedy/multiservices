@@ -297,6 +297,33 @@ const infoModal = [
     mapa: "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3731.8751157151464!2d-105.27928715920976!3d20.715295249287326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8421472183966cdf%3A0xec1fd6e220735ff9!2sBurritos%20El%20Punto%20Vallarta!5e0!3m2!1ses-419!2smx!4v1690389078319!5m2!1ses-419!2smx' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
     contacto: "https://api.whatsapp.com/send/?phone=523222817695",
   },
+  {
+    id: 32,
+    title: "La Casa del Cabo de Vallarta",
+    description: "Obtén este beneficio solo con la membresía Multiservice Card",
+    direccion: "Av Tepic norte 479 local 7 Plaza del Faro Mezcales, 63735 Tondoroque, Nay.",
+    img: "imagenes/descuentos/promo-cabo.jpeg",
+    mapa: "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d381625.4356825381!2d-105.7217522762784!3d20.70034675157655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842140c0bb6bdf17%3A0xa3a88a828ecaa118!2sLa%20Casa%20del%20Cabo%20de%20Vallarta!5e0!3m2!1ses!2smx!4v1690493535885!5m2!1ses!2smx' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+    contacto: "tel:523292981765",
+  },
+  {
+    id: 33,
+    title: "Auto Climas De la Bahia",
+    description: "Obtén este beneficio solo con la membresía Multiservice Card",
+    direccion: "Boulevard rivera nayarit 1394-A",
+    img: "imagenes/descuentos/promo-bahia.jpeg",
+    mapa: "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3731.0546187255695!2d-105.32005569034108!3d20.748580197265117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842141ef1dc15f55%3A0xc48648505cd36ec2!2sAuto%20Climas%20De%20la%20Bahia!5e0!3m2!1ses!2smx!4v1690493959709!5m2!1ses!2smx' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+    contacto: "https://api.whatsapp.com/send/?phone=523224296427",
+  },
+  {
+    id: 34,
+    title: "Om Skin Spa Vallarta",
+    description: "Obtén este beneficio solo con la membresía Multiservice Card",
+    direccion: "Mar Caribe 610, Palmar de Aramara, 48314 Puerto Vallarta, Jal.",
+    img: "imagenes/descuentos/promo-spa.jpeg",
+    mapa: "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3733.3757608998285!2d-105.23690369034388!3d20.654286200457715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8421459ba1aa08dd%3A0xb7cf685f22113b1c!2sOm%20Skin%20Spa!5e0!3m2!1ses!2smx!4v1690494793179!5m2!1ses!2smx' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+    contacto: "https://api.whatsapp.com/send/?phone=523221151208",
+  },
 ];
 
 let modalBtns = document.querySelectorAll(".btn-mas");
