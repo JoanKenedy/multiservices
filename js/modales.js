@@ -324,6 +324,42 @@ const infoModal = [
     mapa: "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3733.3757608998285!2d-105.23690369034388!3d20.654286200457715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8421459ba1aa08dd%3A0xb7cf685f22113b1c!2sOm%20Skin%20Spa!5e0!3m2!1ses!2smx!4v1690494793179!5m2!1ses!2smx' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
     contacto: "https://api.whatsapp.com/send/?phone=523221151208",
   },
+  {
+    id: 35,
+    title: "Sanatorio Belén",
+    description: "Obtén este beneficio solo con la membresía Multiservice Card",
+    direccion: "Josefa Ortiz de Domínguez 189, Centro Pitillal, 48290 Puerto Vallarta, Jal.",
+    img: "imagenes/descuentos/promo-belen.jpg",
+    mapa: "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3733.4252062023793!2d-105.21967996478013!3d20.652273058566994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x84214f7ec2a8d4bb%3A0xbd849ad48b1404dd!2sSanatorio%20Bel%C3%A9n!5e0!3m2!1ses!2smx!4v1690995916697!5m2!1ses!2smx' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+    contacto: "https://api.whatsapp.com/send/?phone=523221742776",
+  },
+  {
+    id: 36,
+    title: "Veterinaria Vdunia",
+    description: "Obtén este beneficio solo con la membresía Multiservice Card",
+    direccion: "Av. Héroes de Nacozari 52, 63732 Bucerías, Nay.",
+    img: "imagenes/descuentos/promo-vet.jpg",
+    mapa: "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59694.173073795704!2d-105.37802927563472!3d20.755421611854437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8421406aa114610b%3A0xc4ab1c05ba2e3784!2sDr.%20Dunia%20Veterinario!5e0!3m2!1ses!2smx!4v1690996157593!5m2!1ses!2smx' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+    contacto: "https://api.whatsapp.com/send/?phone=523221030233",
+  },
+  {
+    id: 37,
+    title: "Del Valle Garden Service",
+    description: "Obtén este beneficio solo con la membresía Multiservice Card",
+    direccion: "Blvd. Nuevo Vallarta, 63735 Nuevo Vallarta, Nay.",
+    img: "imagenes/descuentos/promo-delvalle-2.jpg",
+    mapa: "<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d119423.65137695821!2d-105.285304!3d20.710667!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x84214f891c15fc07%3A0xb104dae8e5da0777!2sDel%20Valle%20Garden%20Service!5e0!3m2!1ses-419!2smx!4v1690995647725!5m2!1ses-419!2smx' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+    contacto: "https://api.whatsapp.com/send/?phone=523221053736",
+  },
+  {
+    id: 38,
+    title: "La casa del ceviche",
+    description: "Obtén este beneficio solo con la membresía Multiservice Card",
+    direccion: "Venustiano Carranza 329, Zona Romántica, Emiliano Zapata, 48380 Puerto Vallarta, Jal.",
+    img: "imagenes/descuentos/promo-pulpo.jpg",
+    mapa: "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3734.6259229828197!2d-105.23431629999999!3d20.603328699999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8421454d565e3eef%3A0x1493587260be7af!2sLa%20Casa%20Del%20Ceviche!5e0!3m2!1ses-419!2smx!4v1690995329154!5m2!1ses-419!2smx' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+    contacto: "https://api.whatsapp.com/send/?phone=523221526995",
+  },
 ];
 
 let modalBtns = document.querySelectorAll(".btn-mas");

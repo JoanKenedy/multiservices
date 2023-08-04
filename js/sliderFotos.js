@@ -12,6 +12,9 @@ ftsClose.addEventListener("click", () => {
 
 const imgArray = [
   {
+    img1: "imagenes/38.jpeg",
+  },
+  {
     img1: "imagenes/22.jpeg",
   },
   {
