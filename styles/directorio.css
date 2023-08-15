@@ -9,8 +9,19 @@
   color: #002c89;
   margin-top: 15px;
 }
+.directorios h4 {
+  text-align: center;
+  font-size: 1em;
+  color: #002c89;
+  margin-top: 15px;
+}
 .directorios p {
   font-size: 1em;
+  padding: 10px;
+  text-align: justify;
+}
+.directorios .txt-directorio {
+  font-size: 0.8em;
   padding: 10px;
   text-align: justify;
 }
@@ -168,8 +179,21 @@
     margin-top: 15px;
     text-transform: uppercase;
   }
+  .directorios h4 {
+    text-align: center;
+    font-size: 1.9em;
+    color: #002c89;
+    margin-top: 15px;
+    text-transform: uppercase;
+  }
   .directorios p {
     font-size: 1.2em;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .directorios .txt-directorio {
+    font-size: 0.9em;
     padding: 10px;
     text-align: center;
     font-weight: bold;

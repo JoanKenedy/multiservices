@@ -1131,6 +1131,8 @@ form select option {
   .index-count {
     width: 100%;
     margin: auto;
+    display: flex;
+    flex-direction: column;
   }
   .container-slider-movil {
     display: none;
