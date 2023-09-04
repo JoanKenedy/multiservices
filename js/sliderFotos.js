@@ -21,6 +21,9 @@ const imgArray = [
     img1: "imagenes/36.jpeg",
   },
   {
+    img1: "imagenes/39.jpeg",
+  },
+  {
     img1: "imagenes/37.jpeg",
   },
   {
