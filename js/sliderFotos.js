@@ -15,13 +15,16 @@ const imgArray = [
     img1: "imagenes/38.jpeg",
   },
   {
-    img1: "imagenes/22.jpeg",
-  },
-  {
     img1: "imagenes/36.jpeg",
   },
   {
     img1: "imagenes/39.jpeg",
+  },
+  {
+    img1: "imagenes/40.jpeg",
+  },
+  {
+    img1: "imagenes/41.jpeg",
   },
   {
     img1: "imagenes/37.jpeg",
@@ -29,7 +32,6 @@ const imgArray = [
   {
     img1: "imagenes/2.jpeg",
   },
-
   {
     img1: "imagenes/4.jpeg",
   },
@@ -130,9 +132,9 @@ const imgArray = [
   {
     img1: "imagenes/34.jpeg",
   },
-  {
+  /*{
     img1: "imagenes/35.jpeg",
-  },
+  },*/
 ];
 
 const comprasMembresia = document.getElementById("comprasMembresia");
