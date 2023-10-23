@@ -169,6 +169,7 @@
   font-size: 1.3em;
   color: #002c89;
   padding-left: 15px;
+  margin-top: 15px;
 }
 .beneficios-nosotros h4 {
   font-size: 0.9em;
@@ -263,12 +264,6 @@
   padding: 10px 50px;
   position: relative;
   width: 50%;
-  
-  view-timeline-name: --image;
-  view-timeline-axis: block;
-
-  animation-timeline: --image;
-  animation-name: show;
 }
 
 .container:nth-child(1) {
@@ -386,8 +381,9 @@
     text-align: left;
     position: relative;
     padding: 0px 15px;
-    margin-top: 5px;
+    margin-top: 15px;
     text-transform: uppercase;
+    
   }
   .history-h4 {
     color: #002c89;
