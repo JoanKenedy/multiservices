@@ -668,16 +668,16 @@ const infoModal = [
     mapa: "<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14934.665234371403!2d-105.232595!3d20.642454!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842145e39873972b%3A0x7a67d386ac10636c!2sU%C3%B1as%20pies%20y%20m%C3%A1s%20Vallarta!5e0!3m2!1ses-419!2smx!4v1699645267776!5m2!1ses-419!2smx'  style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
     contacto: "https://wa.me/1523221903192",
   },
-  /*{
+  {
     id: 66,
     title: "Classy Nail Bar PV",
     description: "Obtén este beneficio solo con la membresía Multiservice Card",
     description1: "Obtain this benefit only with the Multiservice Card membership",
     direccion: "Av Fluvial Vallarta 260, Fluvial Vallarta, 48312 Puerto Vallarta, Jal.",
-    img: "imagenes/descuentos/clasy.png",
+    img: "imagenes/descuentos/classy.jpeg",
     mapa: "<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14934.633330317702!2d-105.2299269!3d20.6427789!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x84214579ea7d948b%3A0xdd83284fbf5bf99c!2s&#39;Classy&#39;%20Nail%20Bar!5e0!3m2!1ses-419!2smx!4v1699645368296!5m2!1ses-419!2smx'  style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
     contacto: "https://wa.me/1523222934223",
-  },*/
+  },
   {
     id: 67,
     title: "nbc Beauty Supply",
@@ -687,6 +687,26 @@ const infoModal = [
     img: "imagenes/descuentos/nbc-cuadrado-multi.jpg",
     mapa: "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3733.6929852637295!2d-105.2328903!3d20.6413673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8421457734469efb%3A0xd20c2ec1425d945c!2snbc%20Beauty%20Suply!5e0!3m2!1ses-419!2smx!4v1699645465411!5m2!1ses-419!2smx'  style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
     contacto: "https://wa.me/1523221358175",
+  },
+  {
+    id: 68,
+    title: "dealba air conditioned",
+    description: "Obtén este beneficio solo con la membresía Multiservice Card",
+    description1: "Obtain this benefit only with the Multiservice Card membership",
+    direccion: "Av. Francisco Villa 384, Olímpica, 48310 Puerto Vallarta, Jal.",
+    img: "imagenes/descuentos/alba.jpeg",
+    mapa: "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3734.0034866120927!2d-105.2277304!3d20.6287147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842145668eafea03%3A0x19f4c64e3545d0c0!2sAires%20Acondicionados%20De%20Alba!5e0!3m2!1ses-419!2smx!4v1700160956049!5m2!1ses-419!2smx'  style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+    contacto: "https://wa.me/1523224051289",
+  },
+    {
+    id: 69,
+    title: "El Negrito",
+    description: "Obtén este beneficio solo con la membresía Multiservice Card",
+    description1: "Obtain this benefit only with the Multiservice Card membership",
+    direccion: "De Los Tules 169, Jardines de Vallarta, 48328 Puerto Vallarta, Jal.",
+    img: "imagenes/descuentos/negrito.jpeg",
+    mapa: "<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14935.02068315637!2d-105.2211462!3d20.6388339!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8421457d0b7d15b9%3A0x746d09dd729b82f4!2sEl%20negrito%20restaurant!5e0!3m2!1ses-419!2smx!4v1700160679246!5m2!1ses-419!2smx'  style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+    contacto: "https://wa.me/1523221902688",
   },
 ];
 
@@ -703,8 +723,6 @@ for (let i = 0; i < modalBtns.length; i++) {
       .filter((info) => info.id == evento)
       .map((info) => {
         containerServices.innerHTML += `
-           
-          
               <div class="item-modal-services">
               <h2 id="titleService">${info.title}</h2>
               <img src=${info.img} alt="" id="imgService">
@@ -715,18 +733,14 @@ for (let i = 0; i < modalBtns.length; i++) {
                 <p id="textServices">Dirección: ${info.direccion}</p>
                 
                 <div class="mapa-modal">
-                 ${info.mapa}
+                  ${info.mapa}
                 </div>
                 </div>
                 <div class="item-modal-services">
                 
                 <a href="${info.contacto}" target="_blank">Contáctanos / Call us</a>
-                </div>
-           
-           
-           
-          
-           `;
+                </div>          
+            `;
       });
   });
 }
