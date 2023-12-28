@@ -1,8 +1,23 @@
 .directorios {
   width: 100%;
   overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-
+.directorios select {
+  color: #002c89;
+  width: 200px;
+  padding: 10px 15px;
+  overflow-y: auto;
+  font-weight: 700;
+  border-radius: 10px;
+  border-color: #002c89;
+}
+.directorios option {
+  overflow-y: scroll;
+}
 .directorios h2 {
   text-align: center;
   font-size: 1.3em;
@@ -27,6 +42,25 @@
 }
 .container-directorios {
   width: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px auto;
+  text-align: center;
+}
+.container-general {
+  width: 100%;
+  margin-top: 20px;
+}
+.removeShops {
+  display: none;
+}
+.showShops {
+  display: block;
+}
+.grid-items {
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 30px;
@@ -45,21 +79,29 @@
   padding: 10px;
   border-radius: 10px;
 }
+.item-tabla {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
 .item-directorios img {
   max-width: 70%;
   margin: auto;
   max-height: 70%;
 }
-
-.item-directorios:nth-child(5) img,
-.item-directorios:nth-child(6) img,
-.item-directorios:nth-child(9) img,
-.item-directorios:nth-child(10) img {
-  max-width: 100%;
-  height: 150px;
-  object-fit: contain;
+.item-tabla img {
+  max-width: 70%;
+  margin: auto;
+  max-height: 70%;
 }
-.item-directorios button {
+#myTable_next {
+  display: none !important;
+}
+
+.item-directorios button,
+.item-tabla button {
   display: block;
   width: 170px;
   background-color: #002c89;
@@ -71,11 +113,13 @@
   border: none;
   margin: 7px auto;
 }
-.item-directorios i {
+.item-directorios i,
+.item-tabla i {
   font-size: 25px;
   color: #002c89;
 }
-.item-directorios h2 {
+.item-directorios h2, 
+.item-tabla h2 {
   font-size: 2em;
   color: #424242;
 }
@@ -158,6 +202,11 @@
   height: 190px;
   object-fit: contain;
 }
+.img-tabla {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
 .mapa-modal p {
   color: #fff;
   font-size: 1em;
@@ -165,6 +214,10 @@
 }
 .mapa-modal iframe {
   width: 100%;
+}
+.container-tabla {
+  width: 100%;
+  padding: 40px 1rem;
 }
 @media (min-width: 768px) {
   .directorios {
@@ -198,14 +251,6 @@
     text-align: center;
     font-weight: bold;
   }
-  .container-directorios {
-    width: 85%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-    margin: 20px auto;
-    text-align: center;
-  }
   .item-directorios {
     width: 100%;
     height: 270px;
@@ -218,18 +263,23 @@
     padding: 10px;
     border-radius: 10px;
   }
-  .item-directorios img {
+  .item-directorios img,
+  .item-tabla img {
     max-width: 100%;
     margin: auto;
   }
   .item-directorios:nth-child(6) img,
   .item-directorios:nth-child(7) img,
-  .item-directorios:nth-child(2) img {
+  .item-directorios:nth-child(2) img,
+  .item-tabla:nth-child(6) img,
+  .item-tabla:nth-child(7) img,
+  .item-tabla:nth-child(2) img {
     max-width: 100%;
     height: 170px;
     object-fit: contain;
   }
-  .item-directorios button {
+  .item-directorios button,
+  .item-tabla button {
     display: block;
     width: 170px;
     background-color: #002c89;
@@ -241,10 +291,12 @@
     border: none;
     margin: 7px auto;
   }
-  .item-directorios i {
+  .item-directorios i,
+  .item-tabla i {
     font-size: 25px;
   }
-  .item-directorios h2 {
+  .item-directorios h2, 
+  .item-tabla h2 {
     font-size: 2em;
     color: #424242;
   }
@@ -363,5 +415,22 @@
   .mapa-modal {
     text-align: center;
     margin: auto;
+  }
+  .grid-items {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  #juarez {
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  .directorios select {
+    width: 300px;
+    font-size: 20px;
+    margin-top: 20px;
   }
 }
