@@ -11,4 +11,7 @@ function myModal() {
   close.addEventListener("click", () => {
     modal.classList.remove("modal-show");
   });
+  modal.addEventListener("click", () => {
+    modal.classList.remove("modal-show");
+  });
 }
