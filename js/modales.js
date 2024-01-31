@@ -798,6 +798,26 @@ const infoModal = [
     mapa: "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3731.923464448196!2d-105.2752119!3d20.7133323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842146f2d7910d8b%3A0x1a889f328c2930c7!2sCHEDRAUI%20NUEVO%20VALLARTA!5e0!3m2!1ses-419!2smx!4v1704495568205!5m2!1ses-419!2smx'  style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
     contacto: "https://wa.me/1523223683138",
   },
+  {
+    id: 79,
+    title: "Beauty spa",
+    description: "Obtén este beneficio solo con la membresía Multiservice Card",
+    description1: "Obtain this benefit only with the Multiservice Card membership",
+    direccion: "Morelia 138, Versalles, 48310 Puerto Vallarta, Jal.",
+    img: "imagenes/descuentos/beauty-spa.jpeg",
+    mapa: "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3733.949468745424!2d-105.22969591874475!3d20.630916403895508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa99a41db5acb92c1%3A0x8243b3fdf6192d0b!2sBeauty%20Spa!5e0!3m2!1ses-419!2smx!4v1706728920208!5m2!1ses-419!2smx' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+    contacto: "https://wa.me/1523222167584",
+  },
+  {
+    id: 80,
+    title: "Servicellpcbox",
+    description: "Obtén este beneficio solo con la membresía Multiservice Card",
+    description1: "Obtain this benefit only with the Multiservice Card membership",
+    direccion: "Zacatecas 205, Las Mojoneras, 48290 Puerto Vallarta, Jal.",
+    img: "imagenes/descuentos/pcbox.jpeg",
+    mapa: "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3732.5461443804643!2d-105.2252917!3d20.6880357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x84214555a3aad61d%3A0x92f2e68d7bb80a2d!2sServicellpcbox!5e0!3m2!1ses-419!2smx!4v1706728155406!5m2!1ses-419!2smx' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+    contacto: "https://wa.me/1523224060456",
+  },
 ];
 
 let modalBtns = document.querySelectorAll(".btn-mas");
