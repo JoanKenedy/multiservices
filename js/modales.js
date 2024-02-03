@@ -828,6 +828,16 @@ const infoModal = [
     mapa: "<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14935.237491283762!2d-105.2300651!3d20.6366255!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842145f727049eef%3A0x49c0d66431ddee7f!2sViajapagos!5e0!3m2!1ses-419!2smx!4v1706828303168!5m2!1ses-419!2smx'  style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
     contacto: "https://wa.me/1523223080365",
   },
+  {
+    id: 82,
+    title: "CILVA Laboratorios e Imagen",
+    description: "Obtén este beneficio solo con la membresía Multiservice Card",
+    description1: "Obtain this benefit only with the Multiservice Card membership",
+    direccion: "Berlín 152, Versalles, 48310 Puerto Vallarta, Jal.",
+    img: "imagenes/descuentos/cilva.jpeg",
+    mapa: "<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14935.656809294185!2d-105.2265493!3d20.6323537!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8421456466471f03%3A0x78d7c5465b1a4d7e!2sCILVA%20Laboratorios%20e%20Imagen!5e0!3m2!1ses-419!2smx!4v1706917826480!5m2!1ses-419!2smx' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+    contacto: "https://wa.me/1523222937321",
+  },
 ];
 
 let modalBtns = document.querySelectorAll(".btn-mas");
