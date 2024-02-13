@@ -838,6 +838,36 @@ const infoModal = [
     mapa: "<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14935.656809294185!2d-105.2265493!3d20.6323537!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8421456466471f03%3A0x78d7c5465b1a4d7e!2sCILVA%20Laboratorios%20e%20Imagen!5e0!3m2!1ses-419!2smx!4v1706917826480!5m2!1ses-419!2smx' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
     contacto: "tel:3222937321",
   },
+  {
+    id: 83,
+    title: "Konny Moctezuma",
+    description: "Obtén este beneficio solo con la membresía Multiservice Card",
+    description1: "Obtain this benefit only with the Multiservice Card membership",
+    direccion: "Av. de las Cascadas 769, Las Aralias, 48328 Puerto Vallarta, Jal.",
+    img: "imagenes/descuentos/vestidos-1.jpeg",
+    mapa: "<iframe src= 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d660.0519364584801!2d-105.21349849423774!3d20.636290206351894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8421454833d31ce5%3A0x4734658f35076c06!2sKonny%20Moctezuma%20LUX%20RENT%20DRESS!5e0!3m2!1ses!2smx!4v1707763744600!5m2!1ses!2smx ' style= 'border:0; ' allowfullscreen= ' ' loading= 'lazy ' referrerpolicy= 'no-referrer-when-downgrade '></iframe>",
+    contacto: "https://api.whatsapp.com/send?phone=523221077701&text=Hola%20Konny",
+  },
+  {
+    id: 84,
+    title: "Laboratorios Quezada",
+    description: "Obtén este beneficio solo con la membresía Multiservice Card",
+    description1: "Obtain this benefit only with the Multiservice Card membership",
+    direccion: "Matamoros 25, Nayarit, 63732 Bucerías, Nay.",
+    img: "imagenes/descuentos/lab.jpeg",
+    mapa: "<iframe src= 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14923.53992336328!2d-105.3361636!3d20.7554555!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842140bfc924bd45%3A0x97e04c91e81c3923!2sLaboratorios%20Quezada!5e0!3m2!1ses-419!2smx!4v1707764097645!5m2!1ses-419!2smx ' style= 'border:0; ' allowfullscreen= ' ' loading= 'lazy ' referrerpolicy= 'no-referrer-when-downgrade '></iframe>",
+    contacto: "https://wa.me/+523111226592",
+  },
+  {
+    id: 85,
+    title: "Fancy Petite",
+    description: "Obtén este beneficio solo con la membresía Multiservice Card",
+    description1: "Obtain this benefit only with the Multiservice Card membership",
+    direccion: "P.º de Las Conchas Chinas 129, Conchas Chinas, 48399 Puerto Vallarta, Jal.",
+    img: "imagenes/descuentos/fancy.jpeg",
+    mapa: "<iframe src= 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d933.7416875308313!2d-105.24210632750756!3d20.58941541743665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x84215ab7ea16f669%3A0xf9bd116f44777ee0!2sP.%C2%BA%20de%20Las%20Conchas%20Chinas%20129%2C%20Conchas%20Chinas%2C%2048399%20Puerto%20Vallarta%2C%20Jal.!5e0!3m2!1ses!2smx!4v1707766332581!5m2!1ses!2smx ' style= 'border:0; ' allowfullscreen= ' ' loading= 'lazy ' referrerpolicy= 'no-referrer-when-downgrade '></iframe>",
+    contacto: "https://wa.me/+523221992869",
+  },
 ];
 
 let modalBtns = document.querySelectorAll(".btn-mas");
