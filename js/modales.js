@@ -844,7 +844,7 @@ const infoModal = [
     description: "Obtén este beneficio solo con la membresía Multiservice Card",
     description1: "Obtain this benefit only with the Multiservice Card membership",
     direccion: "Av. de las Cascadas 769, Las Aralias, 48328 Puerto Vallarta, Jal.",
-    img: "imagenes/descuentos/vestidos-1.jpeg",
+    img: "imagenes/descuentos/vestido-de-gala-2.jpg",
     mapa: "<iframe src= 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d660.0519364584801!2d-105.21349849423774!3d20.636290206351894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8421454833d31ce5%3A0x4734658f35076c06!2sKonny%20Moctezuma%20LUX%20RENT%20DRESS!5e0!3m2!1ses!2smx!4v1707763744600!5m2!1ses!2smx ' style= 'border:0; ' allowfullscreen= ' ' loading= 'lazy ' referrerpolicy= 'no-referrer-when-downgrade '></iframe>",
     contacto: "https://api.whatsapp.com/send?phone=523221077701&text=Hola%20Konny",
   },
