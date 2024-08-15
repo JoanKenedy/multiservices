@@ -1,14 +1,14 @@
-const btnFotos = document.getElementById("fotos");
-const containerFotos = document.getElementById("containerFotos");
-const ftsClose = document.getElementById("fts-close");
+// const btnFotos = document.getElementById("fotos");
+// const containerFotos = document.getElementById("containerFotos");
+// const ftsClose = document.getElementById("fts-close");
 
-btnFotos.addEventListener("click", () => {
-  containerFotos.classList.add("modal-fotos");
-});
+// btnFotos.addEventListener("click", () => {
+//   containerFotos.classList.add("modal-fotos");
+// });
 
-ftsClose.addEventListener("click", () => {
-  containerFotos.classList.remove("modal-fotos");
-});
+// ftsClose.addEventListener("click", () => {
+//   containerFotos.classList.remove("modal-fotos");
+// });
 
 const comprasMembresia = document.getElementById("comprasMembresia");
 
@@ -24,13 +24,13 @@ const comprasMembresia = document.getElementById("comprasMembresia");
   `;
 });*/
 
-var txt = ` `
+let txt = ` `;
 
-for (i=1; i<67; i++) {
+for (i = 1; i < 67; i++) {
   txt = `
     <div class="item-galery">
-      <img src="imagenes/${i}.jpeg" alt="Dueños"  />
+      <img src="imagenes/${i}.jpeg" alt="Dueños" loading="lazy" decoding="async"/>
     </div>
-  `
-  comprasMembresia.insertAdjacentHTML("afterbegin", txt)
+  `;
+  comprasMembresia.insertAdjacentHTML("afterbegin", txt);
 }
