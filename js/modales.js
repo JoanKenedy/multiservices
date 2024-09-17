@@ -235,7 +235,7 @@ const infoModal = [
       "Obtain this benefit only with the Multiservice Card membership",
     direccion:
       "C. Popa local 32-B, Marina del rey, 48335 Puerto Vallarta, Jal.",
-    img: "imagenes/seatle-spa.jpeg",
+    img: "imagenes/descuentos/Seattle-Multiservis.jpg",
     mapa: "<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14932.277654819396!2d-105.2495426!3d20.6667548!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842145e821467271%3A0x86ffd25c590fd837!2sSeattle%20Spa!5e0!3m2!1ses-419!2smx!4v1689182983213!5m2!1ses-419!2smx' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
     contacto: "https://api.whatsapp.com/send/?phone=523221311344",
   },
@@ -247,7 +247,7 @@ const infoModal = [
       "Obtain this benefit only with the Multiservice Card membership",
     direccion:
       "C. Popa Local 03-B, Marina Vallarta, 48335 Puerto Vallarta, Jal.",
-    img: "imagenes/descuentos/Promos-Pasadas-Multiservices16.jpg",
+    img: "imagenes/descuentos/Carmen´s-Multiservis.jpg",
     mapa: "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3733.0660884825384!2d-105.2493956!3d20.6668901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842145b8b6f66621%3A0x923b48db1f4cff5d!2sCarmen&#39;s%20Bliss%20Spa!5e0!3m2!1ses-419!2smx!4v1689183341752!5m2!1ses-419!2smx' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
     contacto: "tel:3222213132",
   },
@@ -929,7 +929,7 @@ const infoModal = [
     description1:
       "Obtain this benefit only with the Multiservice Card membership",
     direccion: "Zacatecas 205, Las Mojoneras, 48290 Puerto Vallarta, Jal.",
-    img: "imagenes/descuentos/pcbox.jpeg",
+    img: "imagenes/descuentos/ServicellpcBox-Multiservis.jpg",
     mapa: "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3732.5461443804643!2d-105.2252917!3d20.6880357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x84214555a3aad61d%3A0x92f2e68d7bb80a2d!2sServicellpcbox!5e0!3m2!1ses-419!2smx!4v1706728155406!5m2!1ses-419!2smx' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
     contacto: "https://api.whatsapp.com/send/?phone=523224060456",
   },
@@ -940,7 +940,7 @@ const infoModal = [
     description1:
       "Obtain this benefit only with the Multiservice Card membership",
     direccion: "Niza 157, Díaz Ordaz, 48310 Puerto Vallarta, Jal.",
-    img: "imagenes/descuentos/viaja.jpg",
+    img: "imagenes/descuentos/ViajaPagos-Multiservis.jpg",
     mapa: "<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14935.237491283762!2d-105.2300651!3d20.6366255!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842145f727049eef%3A0x49c0d66431ddee7f!2sViajapagos!5e0!3m2!1ses-419!2smx!4v1706828303168!5m2!1ses-419!2smx'  style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
     contacto: "https://www.viajapagos.com/es",
   },
@@ -963,7 +963,7 @@ const infoModal = [
       "Obtain this benefit only with the Multiservice Card membership",
     direccion:
       "Av. de las Cascadas 769, Las Aralias, 48328 Puerto Vallarta, Jal.",
-    img: "imagenes/descuentos/vestido-de-gala-2.jpg",
+    img: "imagenes/descuentos/KonnyMoctezuma-Multiservis.jpg",
     mapa: "<iframe src= 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d660.0519364584801!2d-105.21349849423774!3d20.636290206351894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8421454833d31ce5%3A0x4734658f35076c06!2sKonny%20Moctezuma%20LUX%20RENT%20DRESS!5e0!3m2!1ses!2smx!4v1707763744600!5m2!1ses!2smx ' style= 'border:0; ' allowfullscreen= ' ' loading= 'lazy ' referrerpolicy= 'no-referrer-when-downgrade '></iframe>",
     contacto:
       "https://api.whatsapp.com/send?phone=523221077701&text=Hola%20Konny",
@@ -990,6 +990,18 @@ const infoModal = [
     img: "imagenes/descuentos/fancy.jpeg",
     mapa: "<iframe src= 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d933.7416875308313!2d-105.24210632750756!3d20.58941541743665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x84215ab7ea16f669%3A0xf9bd116f44777ee0!2sP.%C2%BA%20de%20Las%20Conchas%20Chinas%20129%2C%20Conchas%20Chinas%2C%2048399%20Puerto%20Vallarta%2C%20Jal.!5e0!3m2!1ses!2smx!4v1707766332581!5m2!1ses!2smx ' style= 'border:0; ' allowfullscreen= ' ' loading= 'lazy ' referrerpolicy= 'no-referrer-when-downgrade '></iframe>",
     contacto: "https://wa.me/+523221992869",
+  },
+  {
+    id: 86,
+    title: "Lorna Rojas",
+    description: "Obtén este beneficio solo con la membresía Multiservice Card",
+    description1:
+      "Obtain this benefit only with the Multiservice Card membership",
+    direccion:
+      "Tai 11, Aramara, 48314 Puerto Vallarta, Jal.",
+    img: "imagenes/descuentos/LoanaRojas-Multiservis.jpg",
+    mapa: "<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14933.47276289502!2d-105.2324526!3d20.6545944!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842145ceaf55b401%3A0x79b800a38a8e4df9!2sLorna%20Rojas%20Estetocosmet%C3%B3loga!5e0!3m2!1ses-419!2smx!4v1726607492507!5m2!1ses-419!2smx' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+    contacto: "https://wa.me/+523111277617",
   },
 ];
 
