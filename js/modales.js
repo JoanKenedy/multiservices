@@ -56,7 +56,7 @@ const infoModal = [
     description1:
       "Obtain this benefit only with the Multiservice Card membership",
     direccion: "C. Ecuador 1426, 5 de Diciembre, 48350 Puerto Vallarta, Jal.",
-    img: "imagenes/descuentos/promo-car.jpg",
+    img: "imagenes/descuentos/ProGarage.webp",
     mapa: " <iframe class='iframe-modal' src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14936.692566324813!2d-105.24596288677388!3d20.62179830369107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842145972f5b2c15%3A0xc796a2327cdf7621!2sPro%20Garage!5e0!3m2!1ses-419!2smx!4v1681326401185!5m2!1ses-419!2smx' style='border:0;'  loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
     contacto: "https://api.whatsapp.com/send/?phone=523221485418",
   },
@@ -293,7 +293,7 @@ const infoModal = [
     description1:
       "Obtain this benefit only with the Multiservice Card membership",
     direccion: "Boulevard Riviera Nayarit #50, Mezcales, México",
-    img: "imagenes/promo-vargas.jpeg",
+    img: "imagenes/descuentos/MariscosVargas.webp",
     mapa: "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3731.429364381339!2d-105.28843458849663!3d20.73338429777697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842147b84375004b%3A0x3b2d947f27ba1f18!2sRestaurant%20Vargas!5e0!3m2!1ses!2smx!4v1689886574174!5m2!1ses!2smx' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
     contacto: "https://api.whatsapp.com/send/?phone=523222051259",
   },
@@ -361,7 +361,7 @@ const infoModal = [
     description1:
       "Obtain this benefit only with the Multiservice Card membership",
     direccion: "Valle de los Reyes 100, Valle Dorado, 63735 Mezcales, Nay.",
-    img: "imagenes/descuentos/promo-burro.jpeg",
+    img: "imagenes/descuentos/BurritosPunto.webp",
     mapa: "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3731.8751157151464!2d-105.27928715920976!3d20.715295249287326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8421472183966cdf%3A0xec1fd6e220735ff9!2sBurritos%20El%20Punto%20Vallarta!5e0!3m2!1ses-419!2smx!4v1690389078319!5m2!1ses-419!2smx' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
     contacto: "https://api.whatsapp.com/send/?phone=523222817695",
   },
@@ -407,7 +407,7 @@ const infoModal = [
       "Obtain this benefit only with the Multiservice Card membership",
     direccion:
       "Josefa Ortiz de Domínguez 189, Centro Pitillal, 48290 Puerto Vallarta, Jal.",
-    img: "imagenes/descuentos/promo-belen.jpg",
+    img: "imagenes/descuentos/SanatorioBelen.webp",
     mapa: "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3733.4252062023793!2d-105.21967996478013!3d20.652273058566994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x84214f7ec2a8d4bb%3A0xbd849ad48b1404dd!2sSanatorio%20Bel%C3%A9n!5e0!3m2!1ses!2smx!4v1690995916697!5m2!1ses!2smx' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
     contacto: "https://api.whatsapp.com/send/?phone=523221742776",
   },
@@ -441,7 +441,7 @@ const infoModal = [
       "Obtain this benefit only with the Multiservice Card membership",
     direccion:
       "Venustiano Carranza 329, Zona Romántica, Emiliano Zapata, 48380 Puerto Vallarta, Jal.",
-    img: "imagenes/descuentos/promo-pulpo.jpg",
+    img: "imagenes/descuentos/CasaCeviche.webp",
     mapa: "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3734.6259229828197!2d-105.23431629999999!3d20.603328699999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8421454d565e3eef%3A0x1493587260be7af!2sLa%20Casa%20Del%20Ceviche!5e0!3m2!1ses-419!2smx!4v1690995329154!5m2!1ses-419!2smx' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
     contacto: "https://api.whatsapp.com/send/?phone=523221526995",
   },
@@ -570,7 +570,7 @@ const infoModal = [
       "Obtain this benefit only with the Multiservice Card membership",
     direccion:
       "Carr. Mezcales - San Vicente 340-local 6, San Vicente, Sin Nombre Loc. San Vicente, 63713 San Vicente, Nay.",
-    img: "imagenes/descuentos/bioaqua.jpg",
+    img: "imagenes/descuentos/BioAqua.webp",
     mapa: "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d238792.61606953572!2d-105.54338951328124!3d20.745336799999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842147f0f79b3c75%3A0xfcbab48fb0f5d7ae!2sBioAqua%20Sea!5e0!3m2!1ses-419!2smx!4v1698089621121!5m2!1ses-419!2smx'   style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
     contacto: "https://bioaquapv.com/store",
   },
@@ -594,7 +594,7 @@ const infoModal = [
       "Obtain this benefit only with the Multiservice Card membership",
     direccion:
       "Av. Paseo de la Marina Sur 161-Local 18, Marina Vallarta, 48335 Puerto Vallarta, Jal.",
-    img: "imagenes/descuentos/mariachiles.jpg",
+    img: "imagenes/descuentos/LosMariachis.webp",
     mapa: "<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14932.765286761793!2d-105.250785!3d20.6617939!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842145bbd19a24d5%3A0x3ab923a82944ed12!2sLos%20Mariachiles%20Restaurant!5e0!3m2!1ses-419!2smx!4v1699479362536!5m2!1ses-419!2smx'   style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
     contacto: "tel:3222091147",
   },
@@ -605,7 +605,7 @@ const infoModal = [
     description1:
       "Obtain this benefit only with the Multiservice Card membership",
     direccion: "Mástil 14, Marina Vallarta, 48450 Puerto Vallarta, Jal.",
-    img: "imagenes/descuentos/splash.jpg",
+    img: "imagenes/descuentos/Splash.webp",
     mapa: "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3733.183667781709!2d-105.25390389027302!3d20.662105400193333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8421451ca6dd77a1%3A0xa82e7fc55ccf23be!2sRestaurant%20SPLASH%20Pasta%20y%20Mariscos!5e0!3m2!1ses-419!2smx!4v1699479781430!5m2!1ses-419!2smx'   style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
     contacto: "https://api.whatsapp.com/send/?phone=523226888222",
   },
@@ -641,7 +641,7 @@ const infoModal = [
       "Obtain this benefit only with the Multiservice Card membership",
     direccion:
       "C. Popa 112-Int. 9, Marina Vallarta, 48335 Puerto Vallarta, Jal.",
-    img: "imagenes/descuentos/Sticky.jpg",
+    img: "imagenes/descuentos/StickyFingers.webp",
     mapa: "<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14932.386821203689!2d-105.2492341!3d20.6656443!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842145b8d0ba3c1b%3A0x8052bc4d1c416923!2sSticky%20Fingers%20wings%20and%20restaurant%20bar%20%26%20grill!5e0!3m2!1ses-419!2smx!4v1699482297187!5m2!1ses-419!2smx'   style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
     contacto: "https://api.whatsapp.com/send/?phone=523221696334",
   },
@@ -665,7 +665,7 @@ const infoModal = [
       "Obtain this benefit only with the Multiservice Card membership",
     direccion:
       "C. Popa 11-Local 10, Marina Vallarta, 48380 Puerto Vallarta, Jal.",
-    img: "imagenes/descuentos/BRANDOS.jpg",
+    img: "imagenes/descuentos/Brandos.webp",
     mapa: "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3733.0917017401844!2d-105.25176399027289!3d20.66584790006689!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842145b995555555%3A0x15a4d4d804a8b6ed!2sBrandos%20Bar!5e0!3m2!1ses-419!2smx!4v1699482961544!5m2!1ses-419!2smx'   style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
     contacto: "https://api.whatsapp.com/send/?phone=523221901015",
   },
@@ -677,7 +677,7 @@ const infoModal = [
       "Obtain this benefit only with the Multiservice Card membership",
     direccion:
       "Carretera libre Tepic a Guadalajara km 187 63830 RANCHO, 63830 El Borrego, Nay.",
-    img: "imagenes/descuentos/BORREGOB.jpg",
+    img: "imagenes/descuentos/BorregoBirria.webp",
     mapa: "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d299790.99389198713!2d-104.80023481061264!3d21.2762493544207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x84271f6ff9cd31f9%3A0xbfddfd4c63ee9d02!2sRestaurante%20B%2C%20birria%20y%20barbacoa!5e0!3m2!1ses-419!2smx!4v1699483030295!5m2!1ses-419!2smx'   style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
     contacto: "tel:3111448181",
   },
@@ -805,7 +805,7 @@ const infoModal = [
       "Obtain this benefit only with the Multiservice Card membership",
     direccion:
       "De Los Tules 169, Jardines de Vallarta, 48328 Puerto Vallarta, Jal.",
-    img: "imagenes/descuentos/negrito.jpeg",
+    img: "imagenes/descuentos/ElNegrito.webp",
     mapa: "<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14935.02068315637!2d-105.2211462!3d20.6388339!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8421457d0b7d15b9%3A0x746d09dd729b82f4!2sEl%20negrito%20restaurant!5e0!3m2!1ses-419!2smx!4v1700160679246!5m2!1ses-419!2smx'  style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
     contacto: "https://api.whatsapp.com/send/?phone=523224051289",
   },
@@ -838,7 +838,7 @@ const infoModal = [
     description1:
       "Obtain this benefit only with the Multiservice Card membership",
     direccion: "C. Perú 1314, 5 de Diciembre, 48350 Puerto Vallarta, Jal.",
-    img: "imagenes/descuentos/atlantis.jpeg",
+    img: "imagenes/descuentos/Atlantis.webp",
     mapa: "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3734.2194314407357!2d-105.23029129999999!3d20.619910800000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842145e3dba32315%3A0xd58596e938646c22!2sRestaurante%20Bar%20Atlantis%20%2CMariscos%20y%20Cortes%20..The%20Best%20Seafood%20%26%20Cuts!5e0!3m2!1ses-419!2smx!4v1700592985223!5m2!1ses-419!2smx'   style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
     contacto: "https://api.whatsapp.com/send/?phone=523221830543",
   },
@@ -861,7 +861,7 @@ const infoModal = [
       "Obtain this benefit only with the Multiservice Card membership",
     direccion:
       "Blvd. Nuevo Vallarta 280, Flamingos, 63738 Las Jarretaderas, Nay.",
-    img: "imagenes/descuentos/promo-pizza.jpeg",
+    img: "imagenes/descuentos/TocaMadera.webp",
     mapa: "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3731.9997096008474!2d-105.2891382!3d20.7102364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842146bfea1b87f3%3A0xa57ea6b16175d189!2sToca%20Madera!5e0!3m2!1ses-419!2smx!4v1704495642727!5m2!1ses-419!2smx' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
     contacto: "https://api.whatsapp.com/send/?phone=523222166706",
   },
@@ -884,7 +884,7 @@ const infoModal = [
       "Obtain this benefit only with the Multiservice Card membership",
     direccion:
       "Plaza Neptuno, local D4, Marina Vallarta, 48450 Puerto Vallarta, Jal.",
-    img: "imagenes/descuentos/promo-ballena.jpeg",
+    img: "imagenes/descuentos/LaBallena.webp",
     mapa: "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3733.0436961441083!2d-105.2489398!3d20.6678012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8421455dcaf1b57f%3A0xa56d276dfefe735e!2sLa%20Ballena%20PV!5e0!3m2!1ses-419!2smx!4v1704495770224!5m2!1ses-419!2smx'  style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
     contacto: "https://api.whatsapp.com/send/?phone=523222750490",
   },
