@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multiservice Card</title>
+    <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="imagenes/fav-multiservice.png" />
+    <link rel="stylesheet" href="styles/home.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-3RLPXRQC4R"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-3RLPXRQC4R");
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <!-- Demo styles -->
+    <style>
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        background-position: center center;
+        background-size: cover;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+      }
+      .swiper-button-prev:after,
+      .swiper-button-next:after {
+        font-size: 22px;
+        color: white;
+        font-weight: 600;
+      }
+      .swiper-pagination-bullet-active {
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <section class="index-count">
+        <div class="container-index-count">
+          <div
+            style="
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+            "
+          >
+            <div class="contador">
+              <i class="fa-solid fa-house"></i>
+              <div class="count_amount" data-cantidad-total="32250">0</div>
+              <p>Visitas al Sitio Web</p>
+            </div>
+            <p style="color: white">Visits to the Website</p>
+          </div>
+          <div
+            style="
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+            "
+          >
+            <div class="contador">
+              <i class="fa-solid fa-users"></i>
+              <div class="count_amount" data-cantidad-total="25487">0</div>
+              <p>Clientes Satisfechos</p>
+            </div>
+            <p style="color: white">Satisfied customers</p>
+          </div>
+        </div>
+      </section>
+      <div class="header-top">
+        <div class="redes-header">
+          <p>Afilia tu negocio</p>
+          <p class="subtutle" style="text-align: center">
+            /Affiliate your business
+          </p>
+        </div>
+
+        <div class="redes-header">
+          <a href="directorio.html" target="" class="comprar">Directorio</a>
+          <a href="https://www.facebook.com/multiservice.card" target="_blank"
+            ><img src="imagenes/facebook.png" alt="" class="icono-header"
+          /></a>
+          <a
+            href="https://instagram.com/multiservicecard?igshid=ZDdkNTZiNTM="
+            target="_blank"
+            ><img src="imagenes/instagram.png" alt="" class="icono-header"
+          /></a>
+          <a
+            href="https://www.tiktok.com/@multiservicecard?_t=8glMNZXRmVh&_r=1"
+            target="_blank"
+            ><img src="imagenes/tik-tok.png" alt="" class="icono-header"
+          /></a>
+          <a
+            href="https://api.whatsapp.com/send/?phone=523221328823"
+            target="_blank"
+            ><img src="imagenes/whatsapp.png" alt="" class="icono-header"
+          /></a>
+        </div>
+      </div>
+      <hr />
+      <div class="header-menu">
+        <div class="container-logo">
+          <img src="imagenes/logo-principal.png" alt="" />
+        </div>
+        <nav class="menu" id="menu">
+          <a href="index.html" class="linea-menu">Inicio</a>
+          <a href="#" class="linea-menu">¿Quiénes Somos?</a>
+          <a href="index.html#beneficios" class="linea-menu">Beneficios</a>
+          <a href="directorio.html" class="linea-menu direct">Directorio</a>
+        </nav>
+        <div class="menu-icon" id="icon-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="hero w-full md:h-[800px] py-4">
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide hidden md:block">
+              <img src="./imagenes/pro-garage/slider-hero/pro-slider-1.webp" />
+              <div
+                class="absolute z-4 top-0 left-0 w-full h-full flex flex-col justify-center items-center"
+              >
+                <p class="text-white">
+                  Primer texto para la pagina de Pro Garage
+                </p>
+                <a
+                  href=""
+                  class="bg-white text-sm text-black py-2 px-5 rounded-xl"
+                  >Contacto</a
+                >
+              </div>
+            </div>
+            <div class="swiper-slide md:hidden">
+              <img
+                src="./imagenes/pro-garage/slider-hero/pro-slider-cel-1.webp"
+              />
+              <div
+                class="absolute z-4 top-0 left-0 w-full h-full flex flex-col justify-center items-center"
+              >
+                <p class="text-white text-sm mb-4 px-3 text-center">
+                  Primer texto para la pagina de Pro Garage
+                </p>
+                <a
+                  href=""
+                  class="bg-white text-sm text-black py-2 px-5 rounded-xl"
+                  >Contacto</a
+                >
+              </div>
+            </div>
+            <div class="swiper-slide hidden md:block">
+              <img src="./imagenes/pro-garage/slider-hero/pro-slider-4.webp" />
+            </div>
+            <div class="swiper-slide md:hidden">
+              <img
+                src="./imagenes/pro-garage/slider-hero/pro-slider-cel-4.webp"
+              />
+              <div
+                class="absolute z-4 top-0 left-0 w-full h-full flex flex-col justify-center items-center"
+              >
+                <p class="text-white text-sm mb-4 px-3 text-center">
+                  Primer texto para la pagina de Pro Garage 2
+                </p>
+                <a
+                  href=""
+                  class="bg-white text-sm text-black py-2 px-5 rounded-xl"
+                  >Contacto</a
+                >
+              </div>
+            </div>
+            <div class="swiper-slide hidden md:block">
+              <img src="./imagenes/pro-garage/slider-hero/pro-slider-2.webp" />
+            </div>
+            <div class="swiper-slide md:hidden">
+              <img
+                src="./imagenes/pro-garage/slider-hero/pro-slider-cel-2.webp"
+              />
+              <div
+                class="absolute z-4 top-0 left-0 w-full h-full flex flex-col justify-center items-center"
+              >
+                <p class="text-white text-sm mb-4 px-3 text-center">
+                  Primer texto para la pagina de Pro Garage 3
+                </p>
+                <a
+                  href=""
+                  class="bg-white text-sm text-black py-2 px-5 rounded-xl"
+                  >Contacto</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="contact">
+        <h2>Soporte Técnico</h2>
+        <h4>Technical support</h4>
+        <p>
+          Déjanos tus datos de contacto y la razón por la que ocupas soporte
+          técnico y a la brevedad nos pondremos en contacto contigo.
+        </p>
+        <p class="txt-ingles">
+          Leave us your contact information and the reason why you use support
+          technician and we will contact you shortly.
+        </p>
+        <div class="container-contact">
+          <div class="item-contact">
+            <form action="">
+              <div class="input-container">
+                <p>Nombre (Name):</p>
+                <input type="text" />
+              </div>
+
+              <div class="input-container">
+                <p>Forma de contacto (Contact):</p>
+                <label
+                  ><input type="checkbox" id="cbox1" value="llamada" /> Llamada
+                  (Call)</label
+                ><br />
+                <label>
+                  <input type="checkbox" id="cbox2" value="whatsapp" />
+                  WhatsApp</label
+                >
+              </div>
+              <div class="input-container">
+                <p>Motivo de contacto (Reason for contact):</p>
+                <select name="motivo">
+                  <option value="motivo1">Motivo 1</option>
+                  <option value="motivo2">Motivo 2</option>
+                  <option value="motivo3">Motivo 3</option>
+                  <option value="motivo4">Otro</option>
+                </select>
+              </div>
+              <div class="input-container">
+                <p>Mensaje (Message):</p>
+                <textarea
+                  name="adicional"
+                  id="adicional"
+                  cols="30"
+                  rows="10"
+                ></textarea>
+              </div>
+              <div class="input-container">
+                <button type="submit" class="enviar-form">Enviar</button>
+              </div>
+            </form>
+          </div>
+          <div class="item-contact">
+            <img src="imagenes/tarjeta.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="aviso-privacidad">
+        <div class="item-aviso">
+          <a href="" class="aviso">Aviso de privacidad / Notice of Privacy</a>
+          <a href="" class="aviso"
+            >Desarrollado por Agencia de Marketing Inspiración ©</a
+          >
+        </div>
+        <div class="logo-footer">
+          <img src="imagenes/logo-principal.png" alt="" />
+        </div>
+
+        <div class="redes-footer">
+          <a href="https://www.facebook.com/multiservice.card" target="_blank"
+            ><img src="imagenes/facebook.png" alt="" class="icono-footer"
+          /></a>
+          <a
+            href="https://instagram.com/multiservicecard?igshid=ZDdkNTZiNTM="
+            target="_blank"
+            ><img src="imagenes/instagram.png" alt="" class="icono-footer"
+          /></a>
+          <a
+            href="https://www.tiktok.com/@multiservicecard?_t=8glMNZXRmVh&_r=1"
+            target="_blank"
+            ><img src="imagenes/tik-tok.png" alt="" class="icono-footer"
+          /></a>
+          <a
+            href="https://api.whatsapp.com/send/?phone=523221328823"
+            target="_blank"
+            ><img src="imagenes/whatsapp.png" alt="" class="icono-footer"
+          /></a>
+        </div>
+      </div>
+    </footer>
+    <script src="js/menu.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        effect: "fade",
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+  </body>
+</html>

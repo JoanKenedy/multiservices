@@ -131,7 +131,7 @@ header {
   align-items: center;
   height: 0vh;
   transition: 0.7s;
-  z-index: 1;
+  z-index: 50;
   visibility: collapse;
 }
 .open {
@@ -210,7 +210,7 @@ main {
 }
 
 .img-home img {
-max-width: 100%;
+  max-width: 100%;
 }
 
 .mobile {
@@ -816,7 +816,7 @@ form select option {
 .texto-comprar {
   text-align: center;
 }
-.texto-comprar-1{
+.texto-comprar-1 {
   font-size: 0.8em;
   text-align: center;
 }
@@ -1061,7 +1061,8 @@ form select option {
   transform: scale(0.9);
   transition: transform 0.5s linear;
 }
-.item-hero-home h4, .item-section-dos h4 {
+.item-hero-home h4,
+.item-section-dos h4 {
   font-size: 0.8em;
   color: #002c89;
   text-align: left;
@@ -1069,7 +1070,8 @@ form select option {
   padding: 0px 15px;
   margin-top: 5px;
 }
-.item-hero-home :nth-last-child(1), .item-section-dos :nth-last-child(2) {
+.item-hero-home :nth-last-child(1),
+.item-section-dos :nth-last-child(2) {
   font-size: 0.8em;
 }
 .contador p:nth-last-child(1) {
@@ -1081,10 +1083,10 @@ form select option {
 }
 .section-promo h4 {
   text-align: left;
-    color: #002c89;
-    font-size: 1em;
-    text-transform: uppercase;
-    padding-left: 15px;
+  color: #002c89;
+  font-size: 1em;
+  text-transform: uppercase;
+  padding-left: 15px;
 }
 .imgNegocio {
   width: 100%;
@@ -1112,10 +1114,13 @@ form select option {
   height: 500px;
 }
 @media (min-width: 768px) {
-  .item-hero-home :nth-last-child(1), .item-section-dos :nth-last-child(2), .item-btn :nth-last-child(3) {
+  .item-hero-home :nth-last-child(1),
+  .item-section-dos :nth-last-child(2),
+  .item-btn :nth-last-child(3) {
     font-size: 1.1em;
   }
-  .item-hero-home h4, .item-section-dos h4 {
+  .item-hero-home h4,
+  .item-section-dos h4 {
     font-size: 1.2em;
     padding-left: 40px;
   }
@@ -1491,7 +1496,8 @@ form select option {
     width: 85%;
     left: 5%;
   }
-  .item-hero-home p, .item-section-dos p {
+  .item-hero-home p,
+  .item-section-dos p {
     font-size: 1.3em;
     text-align: left;
     margin: 7px auto;
