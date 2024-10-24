@@ -1,0 +1,15 @@
+.btn-info-progarage {
+  background-color: #590102;
+}
+.title-color {
+  color: #590102;
+}
+.contenedor-path {
+  background-image: url(../imagenes/pro-garage//bg-eleccion.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  margin-right: -200px;
+  clip-path: polygon(10% 0, 100% 0, 100% 100%, 0% 100%);
+}
