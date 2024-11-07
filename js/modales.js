@@ -56,7 +56,7 @@ const infoModal = [
     description1:
       "Obtain this benefit only with the Multiservice Card membership",
     direccion: "C. Ecuador 1426, 5 de Diciembre, 48350 Puerto Vallarta, Jal.",
-    img: "imagenes/descuentos/ProGarage.webp",
+    img: "imagenes/descuentos/progarage-1.webp",
     mapa: " <iframe class='iframe-modal' src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14936.692566324813!2d-105.24596288677388!3d20.62179830369107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842145972f5b2c15%3A0xc796a2327cdf7621!2sPro%20Garage!5e0!3m2!1ses-419!2smx!4v1681326401185!5m2!1ses-419!2smx' style='border:0;'  loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
     contacto: "https://api.whatsapp.com/send/?phone=523221485418",
   },
