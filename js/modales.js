@@ -61,17 +61,7 @@ const infoModal = [
     contacto: "https://api.whatsapp.com/send/?phone=523221485418",
   },
 
-  {
-    id: 6,
-    title: "Makeup Kenia",
-    description: "Obtén este beneficio solo con la membresía Multiservice Card",
-    description1:
-      "Obtain this benefit only with the Multiservice Card membership",
-    direccion: "C. Juárez 661, Centro, 48300 Puerto Vallarta, Jal.",
-    img: "imagenes/descuentos/kenia.jpeg",
-    mapa: "<iframe class='iframe-modal' src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3734.4226463978966!2d-105.23571372602235!3d20.611622601977505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8421455de49c0455%3A0x79de11559e295ba0!2sCl%C3%ADnica%20Dental%20Ju%C3%A1rez!5e0!3m2!1ses-419!2smx!4v1681326617297!5m2!1ses-419!2smx' style='border:0;'  loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
-    contacto: "https://api.whatsapp.com/send/?phone=523221338387",
-  },
+  
 
   {
     id: 7,

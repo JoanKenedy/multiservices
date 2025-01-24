@@ -23,12 +23,15 @@ header {
   width: 100%;
 }
 .header-top {
+  padding-left: 10px;
+    padding-right: 10px;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   background-color: #002c89;
+  
 }
 .header-top p {
   color: #fff;
@@ -68,19 +71,21 @@ header {
 /* count*/
 .index-count {
   width: 100%;
+  height: 100%;
   margin: auto;
   display: block;
   background-color: #424242;
 }
 
 .container-index-count {
+  justify-content: center;
+  align-items: center;
   width: 90%;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
   margin: 0px auto;
-  gap: 15px;
+  gap: 10%;
   background-color: #424242;
-  padding: 0px auto;
+  padding: 10px;
 }
 .contador {
   margin: auto;
@@ -93,6 +98,7 @@ header {
   justify-content: center;
   align-items: center;
   border-radius: 12px;
+  gap: 5px;
 }
 .contador p {
   font-size: 0.9em;
@@ -102,7 +108,6 @@ header {
 .contador i {
   font-size: 20px;
   color: #fff;
-  margin-right: 10px;
 }
 .count_amount {
   color: #fff;
@@ -916,12 +921,12 @@ form select option {
 .flotantes a {
   position: fixed;
   z-index: 98;
-  right: 0px;
-  bottom: 1vh;
+  right: 12px;
+  bottom: 150px;
 }
 .flotantes a img {
-  width: 90px;
-  height: 90px;
+  width: 65px;
+  height: 65px;
   object-fit: contain;
   animation: flotante 2s infinite;
 }
@@ -1077,7 +1082,7 @@ form select option {
   font-size: 0.8em;
 }
 .contador p:nth-last-child(1) {
-  font-size: 15px;
+  font-size: 14px;
 }
 .comprar-in {
   text-align: center;
@@ -1277,12 +1282,12 @@ form select option {
   .flotantes a {
     position: fixed;
     z-index: 98;
-    right: 10px;
-    bottom: 1vh;
+    right: 12px;
+    bottom: 150px;
   }
   .flotantes a img {
-    width: 100px;
-    height: 100px;
+    width: 65px;
+    height: 65px;
     object-fit: contain;
   }
   .section-promo p {

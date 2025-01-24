@@ -12,6 +12,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
     />
+    <link rel="stylesheet" href="styles/footer.css">
     <!-- Google tag (gtag.js) -->
     <script
       async
@@ -79,43 +80,40 @@
         }
       }
     </style>
+    <script src="js/boton-inicio.js"></script>
+    <link rel="stylesheet" href="styles/general.css">
+    <script src="js/count.js"></script>
   </head>
   <body>
     <header>
-      <section class="index-count">
+      <section id="index-count" class="index-count">
         <div class="container-index-count">
-          <div
-            style="
-              display: flex;
-              flex-direction: column;
-              align-items: center;
-              justify-content: center;
-            "
-          >
-            <div class="contador">
-              <i class="fa-solid fa-house"></i>
-              <div class="count_amount" data-cantidad-total="32250">0</div>
-              <p>Visitas al Sitio Web</p>
+            <div class="contador-vistas-row0">
+                <div class="contador">
+                    <i class="fa-solid fa-house"></i>
+                    <div class="count_amount" data-cantidad-total="42784"></div>
+                    <p>Visitas al Sitio Web</p>
+                </div>
+                <div class="english">
+                  <p style="color: white">Visits to the Website</p>
+                </div>
             </div>
-            <p style="color: white">Visits to the Website</p>
-          </div>
-          <div
-            style="
-              display: flex;
-              flex-direction: column;
-              align-items: center;
-              justify-content: center;
-            "
-          >
-            <div class="contador">
-              <i class="fa-solid fa-users"></i>
-              <div class="count_amount" data-cantidad-total="25487">0</div>
-              <p>Clientes Satisfechos</p>
+
+            <div class="contador-vistas-row1">
+                <div class="contador">
+                    <i class="fa-solid fa-users"></i>
+                    <div class="count_amount" data-cantidad-total="32447">0</div>
+                    <p>Clientes Satisfechos</p>
+                </div>
+                <div class="english">
+                  <p style="color: white">Satisfied customers</p>
+                </div>                   
             </div>
-            <p style="color: white">Satisfied customers</p>
-          </div>
+            <div>
+                <button class="cerrar">X</button>
+            </div>
         </div>
-      </section>
+    </section>
       <div class="header-top">
         <div class="redes-header">
           <p>Afilia tu negocio</p>
@@ -187,7 +185,7 @@
                   >
                 </p>
                 <a
-                  href=""
+                  href="https://api.whatsapp.com/send/?phone=523221328823"
                   class="bg-white text-xl text-black py-2 px-5 rounded-xl px-4 py-2 mt-2"
                   >Contacto</a
                 >
@@ -212,7 +210,7 @@
                   >
                 </p>
                 <a
-                  href=""
+                  href="https://api.whatsapp.com/send/?phone=523221328823"
                   class="bg-white text-sm text-black py-2 px-5 rounded-xl mt-2"
                   >Contacto</a
                 >
@@ -235,7 +233,7 @@
                   >
                 </p>
                 <a
-                  href=""
+                  href="https://api.whatsapp.com/send/?phone=523221328823"
                   class="bg-white text-xl text-black py-2 px-5 rounded-xl px-4 py-2 mt-2"
                   >Contacto</a
                 >
@@ -260,7 +258,7 @@
                   >
                 </p>
                 <a
-                  href=""
+                  href="https://api.whatsapp.com/send/?phone=523221328823"
                   class="bg-white text-sm text-black py-2 px-5 rounded-xl mt-2"
                   >Contacto</a
                 >
@@ -283,7 +281,7 @@
                   >
                 </p>
                 <a
-                  href=""
+                  href="https://api.whatsapp.com/send/?phone=523221328823"
                   class="bg-white text-xl text-black py-2 px-5 rounded-xl px-4 py-2 mt-2"
                   >Contacto</a
                 >
@@ -308,7 +306,7 @@
                   >
                 </p>
                 <a
-                  href=""
+                  href="https://api.whatsapp.com/send/?phone=523221328823"
                   class="bg-white text-sm text-black py-2 px-5 rounded-xl mt-2"
                   >Contacto</a
                 >
@@ -662,7 +660,18 @@
             ><img src="imagenes/whatsapp.png" alt="" class="icono-footer"
           /></a>
         </div>
+        <div>
+          <a href="https://api.whatsapp.com/send/?phone=523221328823" target="_blank" class="whatsapp-button">
+              <img src="imagenes/ico-whats.png" alt="WhatsApp" title="Enviar WhatsApp">
+          </a>
+        </div>
+  
+        <div>
+            <button id="backToTop" title="Volver al inicio" style="display: block;"><i class="fas fa-chevron-up"></i></button>
+        </div>
       </div>
+      
+      
     </footer>
     <script src="js/menu.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>

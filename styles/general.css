@@ -1,0 +1,115 @@
+
+/*Botones Whats y back to top*/
+.boton-whats {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+  }
+  
+  .button {
+    display: inline-block;
+    background-color: #14bd65;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 30px;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #bb2c65;
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  }
+  .contacto-tel{
+    font-size: 21px;
+  }
+  
+  
+  
+  
+  #backToTop {
+    display: none; /* Inicialmente oculto */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #243B93;
+    color: white;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 24px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #backToTop:hover {
+    background-color: #243B93;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+  }
+  
+  .whatsapp-button {
+    position: fixed;
+    bottom: 100px;
+    z-index: 98;
+    right: 20px;
+    background-color: #25d366;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .whatsapp-button:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+  }
+  
+  .whatsapp-button img {
+    width: 30px;
+    height: 30px;
+  }
+  /*Botones Whats y back to top*/
+
+  /*Estilos para el contador de visitas*/
+#index-count .contador-vistas-row0{
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center;
+}
+#index-count .contador-vistas-row1{
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center;
+}
+
+#index-count button.cerrar{
+  color: white;
+  background-color: #00000000;
+  padding: 5px;
+  font-size: 20px;
+  border: none;
+}
+
+#index-count .english{
+  text-align: center;
+  font-size: 14px;
+}
+
+/*Estilos para el contador de visitas*/

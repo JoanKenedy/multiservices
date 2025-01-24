@@ -1,0 +1,96 @@
+
+body {
+  position: relative;
+  height: 100%;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 300px;
+  height: 450px;
+  object-fit: cover;
+}
+
+
+
+
+
+
+
+
+/*Portada*/
+#portada .background-portada{
+  background-image: url(../../imagenes/banner-compu.jpg);
+  background-size: cover;
+  height: 49vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#portada .llamado-accion h3{
+  color: white;
+  font-size: 3vw;
+}
+
+#portada .adquirir-membresia{
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1.5vw;
+  transition: transform 0.3s ease-in-out;
+}
+
+#portada .adquirir-membresia a{
+  text-decoration: none;
+  background-color: gold;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;  
+  font-weight: 600;     
+  
+}
+
+#portada .adquirir-membresia:hover{
+  transform: scale(1.10);
+}
+
+          /* Definimos la animación "brinco" */
+@keyframes salto {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-10px); /* Primer salto hacia arriba */
+  }
+  50% {
+    transform: translateY(0); /* Regresa al lugar original */
+  }
+  75% {
+    transform: translateY(-10px); /* Segundo salto hacia arriba */
+  }
+  100% {
+    transform: translateY(0); /* Regresa al lugar original */
+  }
+}
+
+/* Aplica la animación al h3 */
+#portada h3 {
+  animation: salto 2s ease-in-out infinite; /* Repite la animación cada 2 segundos */
+}
+
+/*Portada*/
