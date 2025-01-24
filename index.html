@@ -1,26 +1,23 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Multiservice Card</title>
     <!--Favicon-->
-    <link rel="icon" type="image/x-icon" href="imagenes/fav-multiservice.png" />
-    <link rel="stylesheet" href="styles/home.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
-    />
+    <link rel="icon" type="image/x-icon" href="imagenes/fav-multiservice.png">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/index/main.css">
+    <link rel="stylesheet" href="styles/index/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <script src="js/boton-inicio.js"></script>
     <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-3RLPXRQC4R"
-    ></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3RLPXRQC4R"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
@@ -30,92 +27,39 @@
 
       gtag("config", "G-3RLPXRQC4R");
     </script>
-    <!-- Demo styles -->
-    <style>
-      html,
-      body {
-        position: relative;
-        height: 100%;
-      }
-
-      .swiper {
-        width: 100%;
-        height: 100%;
-        margin: auto;
-      }
-
-      .swiper-slide {
-        text-align: center;
-        font-size: 18px;
-        background-color: transparent;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-
-      .swiper-slide img {
-        display: block;
-        width: 300px;
-        height: 450px;
-        object-fit: cover;
-      }
-      @media (min-width: 768px) {
-        .swiper {
-          width: 50%;
-          height: 80%;
-          margin: auto;
-        }
-        .swiper-slide {
-          text-align: center;
-          font-size: 18px;
-          background-color: transparent;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-        .swiper-slide img {
-          display: block;
-          max-width: 100%;
-        }
-      }
-    </style>
   </head>
   <body>
+
     <header>
-      <section class="index-count">
-        <div class="container-index-count">
-          <div
-            style="
-              display: flex;
-              flex-direction: column;
-              align-items: center;
-              justify-content: center;
-            "
-          >
-            <div class="contador">
-              <i class="fa-solid fa-house"></i>
-              <div class="count_amount" data-cantidad-total="32250">0</div>
-              <p>Visitas al Sitio Web</p>
+        <section id="index-count" class="index-count">
+            <div class="container-index-count">
+                <div class="contador-vistas-row0">
+                    <div class="contador">
+                        <i class="fa-solid fa-house"></i>
+                        <div class="count_amount" data-cantidad-total="42784"></div>
+                        <p>Visitas al Sitio Web</p>
+                    </div>
+                    <div class="english">
+                      <p style="color: white">Visits to the Website</p>
+                    </div>
+                </div>
+
+                <div class="contador-vistas-row1">
+                    <div class="contador">
+                        <i class="fa-solid fa-users"></i>
+                        <div class="count_amount" data-cantidad-total="32447">0</div>
+                        <p>Clientes Satisfechos</p>
+                    </div>
+                    <div class="english">
+                      <p style="color: white">Satisfied customers</p>
+                    </div>                   
+                </div>
+                <div>
+                    <button class="cerrar">X</button>
+                </div>
             </div>
-            <p style="color: white">Visits to the Website</p>
-          </div>
-          <div
-            style="
-              display: flex;
-              flex-direction: column;
-              align-items: center;
-              justify-content: center;
-            "
-          >
-            <div class="contador">
-              <i class="fa-solid fa-users"></i>
-              <div class="count_amount" data-cantidad-total="25487">0</div>
-              <p>Clientes Satisfechos</p>
-            </div>
-            <p style="color: white">Satisfied customers</p>
-          </div>
-        </div>
-      </section>
+        </section>
+
       <div class="header-top">
         <div class="redes-header">
           <p>Afilia tu negocio</p>
@@ -168,11 +112,30 @@
         </div>
       </div>
     </header>
+
     <main>
-      <div class="img-home">
-        <img src="imagenes/banner-cel.jpg" alt="" class="mobile" />
-        <img src="imagenes/banner-compu.jpg" alt="" class="desktop" />
+      <div id="portada" class="img-home">
+        <div class="background-portada">
+          <div class="llamado-accion">
+            <h3>¡Oferta por tiempo limitado!</h3>
+            <div class="adquirir-membresia">
+              <a href="https://mpago.la/327qQLn" target="_blank" title="Disfruta los mejores beneficios.">
+                Obtener membresía
+              </a>
+            </div>      
+          </div>  
+        </div>
+        <style>
+        
+        </style>
+    
+        <!--
+        <img src="imagenes/banner-cel.jpg" alt="" class="mobile">
+        <img src="imagenes/banner-compu.jpg" alt="" class="desktop">
+        -->
+    
       </div>
+
       <div class="hero-home" id="inicio">
         <div class="item-hero-home">
           <h2 class="linea-after">OBTÉN DESCUENTOS EN DIFERENTES NEGOCIOS</h2>
@@ -986,14 +949,7 @@
                 decoding="async"
               />
             </div>
-            <div class="mySlider fade">
-              <img
-                src="imagenes/descuentos/kenia.jpeg"
-                style="width: 100%"
-                loading="lazy"
-                decoding="async"
-              />
-            </div>
+           
             <div class="mySlider fade">
               <img
                 src="imagenes/descuentos/Promos-PasadasMultiservices5.jpg"
@@ -1700,14 +1656,7 @@
               decoding="async"
             />
           </div>
-          <div class="item-promos">
-            <img
-              src="imagenes/descuentos/kenia.jpeg"
-              alt=""
-              loading="lazy"
-              decoding="async"
-            />
-          </div>
+         
           <div class="item-promos">
             <img
               src="imagenes/descuentos/Promos-PasadasMultiservices5.jpg"
@@ -2494,14 +2443,7 @@
                 <img src="imagenes/mare.png" alt="" />
               </a>
             </div>
-            <div class="carousel-item">
-              <a
-                href="https://www.facebook.com/profile.php?id=100063482079800&mibextid=LQQJ4d"
-                target="_blank"
-              >
-                <img src="imagenes/logos/kenia.jpeg" alt="" />
-              </a>
-            </div>
+            
             <div class="carousel-item">
               <a
                 href="https://m.facebook.com/profile.php?id=100063500801078&_rdr"
@@ -2579,12 +2521,28 @@
         </p>
       </div>
       <div class="dividing-line"></div>
+
       <div class="flotantes">
-        <a href="https://mpago.la/327qQLn">
-          <img src="imagenes/mercado-pago.png" alt="" />
+        <div>
+          <a href="https://mpago.la/327qQLn">
+            <img src="imagenes/mercado-pago.png" title="Comprar membresía">
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <a href="https://api.whatsapp.com/send/?phone=523221328823" target="_blank" class="whatsapp-button">
+            <img src="imagenes/ico-whats.png" alt="WhatsApp" title="Enviar WhatsApp">
         </a>
       </div>
+
+      <div>
+          <button id="backToTop" title="Volver al inicio" style="display: block;"><i class="fas fa-chevron-up"></i></button>
+      </div>
+
     </main>
+
+
     <footer>
       <div class="contact">
         <h2>Soporte Técnico</h2>
@@ -2669,14 +2627,12 @@
             target="_blank"
             ><img src="imagenes/tik-tok.png" alt="" class="icono-footer"
           /></a>
-          <a
-            href="https://api.whatsapp.com/send/?phone=523221328823"
-            target="_blank"
-            ><img src="imagenes/whatsapp.png" alt="" class="icono-footer"
+          <a href="https://api.whatsapp.com/send/?phone=523221328823" target="_blank"><img src="imagenes/whatsapp.png" alt="" class="icono-footer"
           /></a>
         </div>
       </div>
     </footer>
+
     <script src="js/modal.js"></script>
     <script src="https://player.vimeo.com/api/player.js"></script>
     <script src="js/menu.js"></script>

@@ -1,0 +1,41 @@
+@media (min-width: 768px) {
+    .swiper {
+      width: 50%;
+      height: 80%;
+      margin: auto;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background-color: transparent;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .swiper-slide img {
+      display: block;
+      max-width: 100%;
+    }
+  }
+
+@media screen and (max-width: 768px) {
+    /*-----------------Portada---------------------------*/
+    #portada .background-portada{
+      background-image: url(../../imagenes/banner-cel.jpg);
+      height: 175vw;
+    }
+
+    #portada .llamado-accion h3 {
+      color: white;
+      font-size: 7vw;
+      text-align: center;
+      background-color: #000000c9;
+      width: 78vw;
+      padding: 10px;
+      border-radius: 5px;
+  }
+  #portada .adquirir-membresia a{
+    font-size: 4vw;
+  }
+    /*-----------------Portada---------------------------*/
+}

@@ -1,6 +1,6 @@
 addEventListener('DOMContentLoaded', () =>{
     const counts = document.querySelectorAll('.count_amount')
-    const velocidad = 1500;
+    const velocidad = 300;
 
     const animationCount = () =>{
         for(const count of counts){
@@ -11,7 +11,7 @@ addEventListener('DOMContentLoaded', () =>{
 
                 if(valor_actual < cantidadMaxima){
                     count.innerText = Math.ceil(valor_actual + incremento)
-                    setTimeout(countUpdate, 5)
+                    setTimeout(countUpdate, 3)
                 }else{
                     count.innerText = cantidadMaxima
                 }
@@ -39,3 +39,13 @@ addEventListener('DOMContentLoaded', () =>{
 
     
 })
+
+// boton cerrar
+document.addEventListener('DOMContentLoaded', () => {
+    const closeButton = document.querySelector('.cerrar');
+    const elementToClose = document.getElementById('index-count');
+
+    closeButton.addEventListener('click', () => {
+        elementToClose.style.display = 'none';
+    });
+});
